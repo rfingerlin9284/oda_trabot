@@ -1,0 +1,15 @@
+{
+  "breakeven": 0,
+  "bytes_scanned": 3461622514,
+  "clean_high_confidence_results": 502,
+  "close_events_seen": 9172,
+  "closed_trade_results": 656,
+  "files_scanned": 224,
+  "generated_at_utc": "2026-06-07T16:29:50.721851+00:00",
+  "high_confidence_results": 641,
+  "json_records": 9306144,
+  "legacy_root": "/home/rfing/READ_ONLY_LEGACY",
+  "lines_scanned": 12341503,
+  "losses": 395,
+  "wins": 107
+}

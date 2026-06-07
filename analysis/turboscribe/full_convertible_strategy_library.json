@@ -1,0 +1,485 @@
+{
+  "name": "TurboScribe Full Convertible Strategy Library",
+  "scope": "All TurboScribe transcript methods that have enough structure to become a strategy, detector, filter, risk module, or separate bot family.",
+  "source_policy": "Derived from TurboScribe-named archives/docs scanned under /home/rfing and the deduped document inventory in analysis/turboscribe.",
+  "safety_policy": "No method is considered live-money ready until it has deterministic detectors, replay/backtest receipts, paper-trading receipts, OCO protection, exposure limits, and a daily loss breaker.",
+  "current_runtime_note": "ODA_TRABOT is OANDA practice-only. Some methods below are OANDA-compatible, while options/stocks/futures/crypto methods are convertible only for separate bot families.",
+  "strategy_families": [
+    {
+      "strategy_id": "top_down_bias_stack",
+      "style": ["day", "swing"],
+      "domain_fit": ["forex", "futures", "stocks", "crypto"],
+      "source_titles": [
+        "The Best Top Down Analysis Strategy for 2025 Forex Trading Guide",
+        "This Trading Strategy is Boring, but Made Me My First $100,000",
+        "I Just Made $120,000 in 48h With This Forex Trade"
+      ],
+      "core_edge": "Trade only in the direction of weekly/daily/4H structure, then use lower timeframes for entries.",
+      "convertible_rules": [
+        "Compute weekly, daily, and 4H directional bias.",
+        "Reject counter-bias entries.",
+        "Use 2H/1H/30M/15M for pullback alignment and trigger timing."
+      ],
+      "required_data": ["weekly candles", "daily candles", "H4 candles", "H1/M30/M15 candles"],
+      "detectors_to_build": ["multi_timeframe_bias", "lower_timeframe_realignment"],
+      "status": "convertible_high_priority"
+    },
+    {
+      "strategy_id": "ema9_first_touch_continuation",
+      "style": ["day"],
+      "domain_fit": ["forex", "futures", "stocks", "crypto"],
+      "source_titles": [
+        "Moving Average Trading Tutorial (For Day Trading)",
+        "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026",
+        "How to Scalp Like an Elite Prop Trader (Inside Look)"
+      ],
+      "core_edge": "Strong impulse, first pullback or reclaim of the 9 EMA, then continuation confirmation.",
+      "convertible_rules": [
+        "Require directional impulse before pullback.",
+        "Score first 9 EMA touch higher than repeated touches.",
+        "Enter after reclaim/response, not before.",
+        "Use 2R minimum target framing."
+      ],
+      "required_data": ["M1/M5/M15 candles", "EMA 9", "spread"],
+      "detectors_to_build": ["ema9_reclaim", "first_touch_quality", "late_touch_penalty"],
+      "status": "partially_implemented_in_turboscribe_phase1"
+    },
+    {
+      "strategy_id": "prop_desk_scalp_playbook",
+      "style": ["day"],
+      "domain_fit": ["forex", "futures", "stocks"],
+      "source_titles": [
+        "How to Scalp Like an Elite Prop Trader (Inside Look)",
+        "Trading LIVE with the #1 Scalper in the WORLD (EXTREME Accuracy)",
+        "Scalping series #01 Rules for scalping",
+        "ULTIMATE Scalping Course (For Beginner to Advanced Traders)"
+      ],
+      "core_edge": "Short-duration scalp only when timing, liquidity, momentum, and risk are aligned.",
+      "convertible_rules": [
+        "Session gate first.",
+        "Require micro momentum and tight spread/slippage.",
+        "Reject late chase entries.",
+        "Use hard invalidation and fast scratch behavior."
+      ],
+      "required_data": ["M1/M5 candles", "bid/ask spread", "session clock", "recent volatility"],
+      "detectors_to_build": ["micro_momentum", "scalp_pressure", "scratch_if_no_followthrough"],
+      "status": "partially_implemented_in_turboscribe_phase1"
+    },
+    {
+      "strategy_id": "simple_5m_first_15m_bias_scalp",
+      "style": ["day"],
+      "domain_fit": ["forex", "futures", "stocks"],
+      "source_titles": ["My Simple 5 Minute Scalping Strategy (Rules Based)"],
+      "core_edge": "Use first 15-minute candle direction as session bias, then trade retest/continuation on 5-minute execution.",
+      "convertible_rules": [
+        "Read first 15M candle of the target session.",
+        "Trade only in that bias until invalidated.",
+        "Require retest and strong price action.",
+        "Require at least 2R available."
+      ],
+      "required_data": ["session calendar", "M15 first candle", "M5 candles"],
+      "detectors_to_build": ["session_open_15m_bias", "session_retest_score", "two_r_available"],
+      "status": "convertible_high_priority"
+    },
+    {
+      "strategy_id": "opening_range_ai_alert_model",
+      "style": ["day"],
+      "domain_fit": ["forex", "futures", "stocks", "crypto"],
+      "source_titles": ["How to use Claude To Gain a Huge Day Trading Edge"],
+      "core_edge": "Program very specific alert conditions instead of broad price-cross alerts.",
+      "convertible_rules": [
+        "Define opening range high/low.",
+        "Alert only when break, retest, volume/momentum, and time conditions align.",
+        "Use alert logic as candidate generation, not direct execution."
+      ],
+      "required_data": ["session open", "M1/M5/M15 candles", "volume when available"],
+      "detectors_to_build": ["opening_range_levels", "alert_condition_compiler"],
+      "status": "convertible_support_module"
+    },
+    {
+      "strategy_id": "false_breakout_filter",
+      "style": ["day", "swing"],
+      "domain_fit": ["forex", "futures", "stocks", "crypto"],
+      "source_titles": ["How I Avoid False Breakouts (My Secret Technique)"],
+      "core_edge": "Avoid breakout entries when post-break behavior is weak, lethargic, or immediately rejected.",
+      "convertible_rules": [
+        "Track repeated touches of the level.",
+        "Require real expansion and follow-through.",
+        "Use the first bars after the break as acceptance/rejection evidence.",
+        "Block entry when the break returns inside the level."
+      ],
+      "required_data": ["M1/M5/M15 candles", "support/resistance levels"],
+      "detectors_to_build": ["level_touch_count", "break_followthrough", "failed_break_risk"],
+      "status": "partially_implemented_in_turboscribe_phase1"
+    },
+    {
+      "strategy_id": "range_bounce_breakout_classifier",
+      "style": ["day", "swing"],
+      "domain_fit": ["forex", "futures", "stocks", "crypto"],
+      "source_titles": ["Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy)"],
+      "core_edge": "Wide ranges are bounce environments; narrow ranges are breakout-prep environments.",
+      "convertible_rules": [
+        "Classify trend, wide range, or narrow range before entry.",
+        "Wide range: buy support rejection or sell resistance rejection.",
+        "Narrow range: wait for breakout and acceptance.",
+        "De-rank blind MACD-style signals in chop."
+      ],
+      "required_data": ["range high/low", "range width", "support/resistance rejection candles"],
+      "detectors_to_build": ["range_width_score", "support_rejection", "resistance_rejection", "chop_penalty"],
+      "status": "partially_implemented_in_turboscribe_phase1"
+    },
+    {
+      "strategy_id": "order_block_retest",
+      "style": ["day", "swing"],
+      "domain_fit": ["forex", "futures", "crypto"],
+      "source_titles": [
+        "Order Blocks Explained Trade Like the Banks (No BS Guide)",
+        "How do ( FVG, OB, RB ) work"
+      ],
+      "core_edge": "Trade the return to a fresh order block that caused displacement and structure break.",
+      "convertible_rules": [
+        "Find displacement candle sequence.",
+        "Mark the candle/zone before displacement.",
+        "Require break of structure.",
+        "Reject already-mitigated blocks.",
+        "Enter on return plus lower-timeframe confirmation."
+      ],
+      "required_data": ["M1/M5/M15/H1/H4 candles", "swing highs/lows", "displacement measurement"],
+      "detectors_to_build": ["order_block_zone", "break_of_structure", "mitigation_status", "structure_invalidation_price"],
+      "status": "convertible_high_priority"
+    },
+    {
+      "strategy_id": "liquidity_sweep_fvg_midpoint",
+      "style": ["day", "swing"],
+      "domain_fit": ["forex", "futures", "crypto"],
+      "source_titles": [
+        "Smart Money Concepts How I Combine Liquidity Sweeps, FVGs & Order Blocks (Full Strategy)",
+        "ICT 2024 Mentorship How To Trade ICT FVGs Correctly September 16, 2024",
+        "How do ( FVG, OB, RB ) work"
+      ],
+      "core_edge": "After a liquidity sweep and market shift, place a refined entry at the 50% midpoint of a fair value gap.",
+      "convertible_rules": [
+        "Identify higher-timeframe liquidity sweep.",
+        "Require immediate reversal/market structure shift.",
+        "Find lower-timeframe FVG.",
+        "Place limit at FVG midpoint.",
+        "Target nearest higher-timeframe liquidity."
+      ],
+      "required_data": ["H4/H1/M15 context", "M5/M1 execution", "FVG candle triples", "liquidity pools"],
+      "detectors_to_build": ["liquidity_sweep", "fvg_zone", "fvg_midpoint", "choch", "htf_liquidity_target"],
+      "status": "convertible_high_priority"
+    },
+    {
+      "strategy_id": "ict_opening_gap_discount_premium",
+      "style": ["day"],
+      "domain_fit": ["forex", "futures", "indices"],
+      "source_titles": ["ICT 2024 Mentorship How To Trade ICT FVGs Correctly September 16, 2024"],
+      "core_edge": "Use opening range gaps and discount/premium context to decide whether FVG entries have directional value.",
+      "convertible_rules": [
+        "Mark opening range gap.",
+        "Track discount/premium relative to range.",
+        "Prefer FVG entries aligned with opening gap context.",
+        "Avoid forcing trades outside planned trading hours."
+      ],
+      "required_data": ["session opens", "opening gap/range", "M1/M5/M15 candles"],
+      "detectors_to_build": ["opening_gap", "discount_premium_state", "session_time_guard"],
+      "status": "convertible_medium_priority"
+    },
+    {
+      "strategy_id": "supply_demand_zone_rejection",
+      "style": ["day", "swing"],
+      "domain_fit": ["forex", "futures", "stocks", "crypto"],
+      "source_titles": [
+        "COMPLETE Supply & Demand Trading Course",
+        "How I Make $1,000Day with ONE Simple Strategy [100x Trading Tutorial]"
+      ],
+      "core_edge": "Trade reaction at validated supply/demand zones created by strong imbalance.",
+      "convertible_rules": [
+        "Detect departure impulse from a base.",
+        "Mark supply or demand zone.",
+        "Require return/rejection confirmation.",
+        "Invalidate beyond the zone."
+      ],
+      "required_data": ["multi-timeframe candles", "impulse/base detection"],
+      "detectors_to_build": ["supply_zone", "demand_zone", "zone_rejection_score"],
+      "status": "convertible_high_priority"
+    },
+    {
+      "strategy_id": "liquidity_manipulation_structure_to_structure",
+      "style": ["day", "swing"],
+      "domain_fit": ["forex", "futures", "crypto"],
+      "source_titles": [
+        "I Decoded The Liquidity & Manipulation Algorithm In Day Trading",
+        "How Liquidity and Manipulations Work",
+        "This Is How The SMART Money Manipulates YOUR Trades! (Leaked Video)",
+        "Wall Street Trader I Will EXPOSE Exactly HOW The Market Algorithm Works"
+      ],
+      "core_edge": "Markets often move from liquidity pool to liquidity pool; trade after clearout and reclaim instead of chasing the trap.",
+      "convertible_rules": [
+        "Mark equal highs/lows and obvious stop pools.",
+        "Detect sweep/clearout.",
+        "Wait for reclaim or structure shift.",
+        "Target the next opposing liquidity pool."
+      ],
+      "required_data": ["swing highs/lows", "equal high/low clustering", "multi-timeframe candles"],
+      "detectors_to_build": ["liquidity_pool", "sweep_clearout", "reclaim_after_sweep", "next_liquidity_target"],
+      "status": "convertible_high_priority"
+    },
+    {
+      "strategy_id": "orderflow_value_area_auction",
+      "style": ["day"],
+      "domain_fit": ["futures", "stocks", "crypto_with_orderflow"],
+      "source_titles": ["The Only Orderflow Guide You'll Ever Need"],
+      "core_edge": "Use value area, point of control, delta, imbalance, and absorption to confirm acceptance or rejection.",
+      "convertible_rules": [
+        "Build value area and POC from volume profile.",
+        "Confirm trend with imbalance and coherent delta.",
+        "Reject entries where aggression has no result.",
+        "Use value acceptance/rejection as invalidation."
+      ],
+      "required_data": ["volume profile", "footprint/orderflow", "delta"],
+      "detectors_to_build": ["value_area", "poc", "delta_imbalance", "absorption"],
+      "status": "convertible_non_oanda_unless_data_source_added"
+    },
+    {
+      "strategy_id": "ma_crossover_trend_filter",
+      "style": ["day", "swing"],
+      "domain_fit": ["forex", "futures", "stocks", "crypto"],
+      "source_titles": [
+        "BEST Moving Average Strategy for Daytrading Forex (Easy Crossover Strategy)",
+        "Moving Average Trading Tutorial (For Day Trading)",
+        "Best Crypto Scalping Strategy for the 5 Minute Time Frame"
+      ],
+      "core_edge": "Use moving average alignment/crossover as trend filter, then require price-action confirmation.",
+      "convertible_rules": [
+        "Use fast/slow MA alignment.",
+        "Use 200 EMA/SMA as context filter.",
+        "Do not enter from crossover alone in chop.",
+        "Combine with pullback/retest or breakout acceptance."
+      ],
+      "required_data": ["EMA/SMA series", "range/chop filter"],
+      "detectors_to_build": ["ma_alignment", "ma_cross", "ma_context_filter"],
+      "status": "convertible_medium_priority"
+    },
+    {
+      "strategy_id": "fractal_sma_crossover_scalp",
+      "style": ["day"],
+      "domain_fit": ["forex", "futures", "crypto"],
+      "source_titles": ["$10 to $11825.40 in 1 hour! Fractal + SMA Crossover Strategy"],
+      "core_edge": "Use fractal pivots with SMA crossover to time short-term momentum trades.",
+      "convertible_rules": [
+        "Detect confirmed fractal high/low.",
+        "Require SMA crossover in trade direction.",
+        "Use recent fractal as invalidation.",
+        "Require spread/slippage gate."
+      ],
+      "required_data": ["M1/M5 candles", "SMA", "fractal pivots"],
+      "detectors_to_build": ["fractal_pivot", "sma_cross_confirmation"],
+      "status": "convertible_replay_first"
+    },
+    {
+      "strategy_id": "parabolic_sar_cci_scalp",
+      "style": ["day"],
+      "domain_fit": ["forex", "crypto"],
+      "source_titles": ["$1 to $34,009.26 Parabolic SAR+CCI Binary Options Trading"],
+      "core_edge": "Indicator confluence model using Parabolic SAR and CCI for short-term direction.",
+      "convertible_rules": [
+        "Require SAR flip in direction.",
+        "Require CCI momentum confirmation.",
+        "Use only with strong filters because source context is binary/options-style."
+      ],
+      "required_data": ["M1/M5 candles", "Parabolic SAR", "CCI"],
+      "detectors_to_build": ["parabolic_sar_flip", "cci_momentum"],
+      "status": "convertible_low_priority"
+    },
+    {
+      "strategy_id": "swing_ladder_core_overlay",
+      "style": ["swing"],
+      "domain_fit": ["stocks", "crypto", "portfolio_assets"],
+      "source_titles": ["How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed"],
+      "core_edge": "Maintain a core position and trade smaller overlays around moving-average stretch.",
+      "convertible_rules": [
+        "Define core size floor.",
+        "Trim into extension above moving average.",
+        "Add into discount below moving average.",
+        "Stop overlay trading when breakout regime is active."
+      ],
+      "required_data": ["daily candles", "moving average", "portfolio/account positions"],
+      "detectors_to_build": ["core_position_floor", "ma_stretch", "overlay_add_trim"],
+      "status": "convertible_non_oanda_portfolio_bot"
+    },
+    {
+      "strategy_id": "swing_pullback_continuation",
+      "style": ["swing"],
+      "domain_fit": ["forex", "futures", "stocks", "crypto"],
+      "source_titles": [
+        "3 Proven Swing Trading Strategies (That Work)",
+        "The Best Top Down Analysis Strategy for 2025 Forex Trading Guide",
+        "Technical Analysis is Hard (until you see this)"
+      ],
+      "core_edge": "Use higher-timeframe trend and wait for pullback continuation rather than chasing highs/lows.",
+      "convertible_rules": [
+        "Require daily/weekly trend.",
+        "Wait for pullback into structure/MA/zone.",
+        "Enter after lower-timeframe re-alignment.",
+        "Use structure-defined invalidation."
+      ],
+      "required_data": ["weekly/daily/H4 candles", "swing structure"],
+      "detectors_to_build": ["swing_trend", "pullback_zone", "re_alignment_trigger"],
+      "status": "convertible_high_priority"
+    },
+    {
+      "strategy_id": "systematic_risk_reward_ev_filter",
+      "style": ["day", "swing"],
+      "domain_fit": ["all"],
+      "source_titles": [
+        "How I Made $1,000,000 in 51 Days of Day Trading (Full Training)",
+        "I risk $107 to make $7,500 in TradingΓÇª This is how",
+        "The Biggest Hidden Key In Trading",
+        "What Makes a Really Good TradingView Strategy Max Drawdown, Profit Factor, Win Rate, ..."
+      ],
+      "core_edge": "Do not trade setups unless expected value, risk/reward, drawdown, and win-rate math are acceptable.",
+      "convertible_rules": [
+        "Require 2R minimum unless a validated high-win-rate model says otherwise.",
+        "Track profit factor, max drawdown, win rate, average win/loss.",
+        "Use EV filter before enabling any strategy pack.",
+        "Reject overfit strategies."
+      ],
+      "required_data": ["backtest trades", "paper trades", "risk model"],
+      "detectors_to_build": ["ev_gate", "drawdown_guard", "profit_factor_report"],
+      "status": "convertible_core_governance"
+    },
+    {
+      "strategy_id": "smb_quant_modeling_process",
+      "style": ["research"],
+      "domain_fit": ["all"],
+      "source_titles": [
+        "SMB Quant (001) ΓÇ£Modeling ProcessΓÇ¥ with Jeff Holden from SMB Capital KTG",
+        "Real-World Edge w Jeff Holden SMB Capital Head of Trader Development SPECULATORS PODCAST EP 48",
+        "Algorithmic Trading Using Python - Full Course"
+      ],
+      "core_edge": "Turn trader ideas into testable models, score them, and only promote what survives evidence.",
+      "convertible_rules": [
+        "Convert idea to feature hypothesis.",
+        "Backtest on out-of-sample windows.",
+        "Rank by risk-adjusted metrics.",
+        "Promote only with replay and paper evidence."
+      ],
+      "required_data": ["historical data", "feature store", "backtester"],
+      "detectors_to_build": ["strategy_research_pipeline", "leaderboard", "promotion_gate"],
+      "status": "convertible_research_infrastructure"
+    },
+    {
+      "strategy_id": "crypto_rotation_trend_model",
+      "style": ["swing"],
+      "domain_fit": ["crypto"],
+      "source_titles": [
+        "3 Bitcoin STRATEGIES You NEED to Know (FREE)",
+        "The Trick To Making BIG MONEY In Crypto (incl. Free Strategies)",
+        "HODL and DCA are Bad Strategies For Crypto Assets - Here is Why!"
+      ],
+      "core_edge": "Avoid passive holding-only behavior; rotate or trend-follow based on crypto regime.",
+      "convertible_rules": [
+        "Classify crypto trend/regime.",
+        "Hold/rotate only when trend and relative strength support it.",
+        "Use cash/risk-off state during drawdown regimes."
+      ],
+      "required_data": ["daily crypto candles", "relative strength universe", "drawdown filter"],
+      "detectors_to_build": ["crypto_regime", "relative_strength_rotation", "risk_off_filter"],
+      "status": "convertible_non_oanda_crypto_bot"
+    },
+    {
+      "strategy_id": "equity_catalyst_sector_swing",
+      "style": ["swing"],
+      "domain_fit": ["stocks"],
+      "source_titles": [
+        "Hot Stocks Under $10 - For Huge Growth!",
+        "How To Profit From A Trump Presidency In 2025",
+        "Investing For Beginners - How I Make $17K per Week from Stocks"
+      ],
+      "core_edge": "Stock swing ideas need catalyst, sector context, liquidity, and risk filters.",
+      "convertible_rules": [
+        "Screen for liquidity and catalyst.",
+        "Require sector/market alignment.",
+        "Avoid thin names unless risk is reduced.",
+        "Use daily/weekly trend and stop."
+      ],
+      "required_data": ["equity candles", "fundamental/catalyst feed", "sector data"],
+      "detectors_to_build": ["equity_screen", "sector_alignment", "liquidity_filter"],
+      "status": "convertible_non_oanda_equity_bot"
+    },
+    {
+      "strategy_id": "defined_risk_options_income",
+      "style": ["swing"],
+      "domain_fit": ["options"],
+      "source_titles": [
+        "Iron Condor Options Trading Strategy - Best Explanation",
+        "Small Account Options Income Strategy (Easy)",
+        "The Vertical Spread Options Strategies (The ULTIMATE In-Depth Guide)",
+        "The Right Way To Buy Options - Long Vertical Spread",
+        "SPX Gamma Trading Risk $30 to Make $800 (The Strategy Explained!)"
+      ],
+      "core_edge": "Use defined-risk options spreads instead of undefined naked risk.",
+      "convertible_rules": [
+        "Build spreads with capped risk.",
+        "Require liquidity, bid/ask, IV, expiration, and max-loss checks.",
+        "Size by max loss, not premium received.",
+        "Avoid deploying inside OANDA FX bot."
+      ],
+      "required_data": ["options chain", "greeks", "IV", "bid/ask", "expiration calendar"],
+      "detectors_to_build": ["options_chain_loader", "spread_builder", "max_loss_sizer"],
+      "status": "convertible_separate_options_bot"
+    },
+    {
+      "strategy_id": "short_selling_risk_framework",
+      "style": ["day", "swing"],
+      "domain_fit": ["stocks", "futures", "crypto_margin"],
+      "source_titles": ["How Short Selling Works"],
+      "core_edge": "Short setups require borrow/liquidity/short-squeeze risk controls in addition to normal chart signals.",
+      "convertible_rules": [
+        "Confirm instrument can be shorted.",
+        "Limit squeeze exposure.",
+        "Use hard stop and position cap.",
+        "Do not apply stock shorting rules blindly to OANDA netting mode."
+      ],
+      "required_data": ["borrow/shortability", "liquidity", "volatility"],
+      "detectors_to_build": ["shortability_gate", "squeeze_risk_score"],
+      "status": "convertible_separate_market_module"
+    }
+  ],
+  "not_strategy_or_reject": [
+    {
+      "title": "Can I remake those SHTTY mobile games in 1 HOUR",
+      "reason": "Non-trading/game-dev content."
+    },
+    {
+      "title": "How to make YOUR dream game with no experience",
+      "reason": "Non-trading/game-dev content."
+    },
+    {
+      "title": "Passive Income How I Started Dropshipping From Scratch (STEP BY STEP)",
+      "reason": "Business/dropshipping, not trading strategy."
+    },
+    {
+      "title": "Forex trading Strategy 100% winning trades!! WIN every trade you take!!!",
+      "reason": "Guaranteed-win framing is unsafe; use only as negative-control or hypothesis source."
+    },
+    {
+      "title": "Profitable Forex Trader With NO BACKTESTING #TraderTips",
+      "reason": "Explicitly weak or anti-evidence framing; not promoted without backtest."
+    },
+    {
+      "title": "Warren Buffett dividend/investing lectures",
+      "reason": "Mostly long-term investing education, not day/swing bot execution."
+    }
+  ],
+  "implementation_order": [
+    "multi_timeframe_bias",
+    "session_open_15m_bias",
+    "order_block_and_structure",
+    "fvg_midpoint_and_liquidity_sweep",
+    "supply_demand_zone_rejection",
+    "strategy_ev_and_backtest_promotion_gate",
+    "separate options/equity/crypto bot families only after OANDA core is stable"
+  ]
+}

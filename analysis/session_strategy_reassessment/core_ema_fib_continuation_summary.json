@@ -1,0 +1,62 @@
+[
+  {
+    "bucket": "post_london_overlap_0900_1130",
+    "decision": "build narrow cartridge after detector cleanup",
+    "edge_giveback_losses": 0,
+    "losses": 0,
+    "missing_primary_protection_losses": 0,
+    "no_trailing_manager_losses": 0,
+    "pairs": "AUD_USD, EUR_USD, NZD_USD, USD_CAD, USD_CHF",
+    "pnl_usd": 562.3078,
+    "profit_factor": "inf",
+    "strategy_family": "momentum_continuation",
+    "trades": 7,
+    "win_rate_pct": 100.0,
+    "wins": 7
+  },
+  {
+    "bucket": "midday_ny_1130_1400",
+    "decision": "do not deploy",
+    "edge_giveback_losses": 2,
+    "losses": 2,
+    "missing_primary_protection_losses": 0,
+    "no_trailing_manager_losses": 0,
+    "pairs": "EUR_USD, GBP_USD, USD_CAD, USD_CHF",
+    "pnl_usd": -82.8251,
+    "profit_factor": 0.57,
+    "strategy_family": "momentum_continuation",
+    "trades": 4,
+    "win_rate_pct": 50.0,
+    "wins": 2
+  },
+  {
+    "bucket": "ny_afternoon_1400_1700",
+    "decision": "small-sample watch only",
+    "edge_giveback_losses": 0,
+    "losses": 0,
+    "missing_primary_protection_losses": 0,
+    "no_trailing_manager_losses": 0,
+    "pairs": "EUR_USD",
+    "pnl_usd": 117.84,
+    "profit_factor": "inf",
+    "strategy_family": "momentum_continuation",
+    "trades": 2,
+    "win_rate_pct": 100.0,
+    "wins": 2
+  },
+  {
+    "bucket": "pre_london_0000_0300",
+    "decision": "small-sample watch only",
+    "edge_giveback_losses": 0,
+    "losses": 0,
+    "missing_primary_protection_losses": 0,
+    "no_trailing_manager_losses": 0,
+    "pairs": "GBP_USD",
+    "pnl_usd": 35.25,
+    "profit_factor": "inf",
+    "strategy_family": "momentum_continuation",
+    "trades": 1,
+    "win_rate_pct": 100.0,
+    "wins": 1
+  }
+]

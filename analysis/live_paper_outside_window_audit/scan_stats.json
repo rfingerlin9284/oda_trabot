@@ -1,0 +1,17 @@
+{
+  "bytes_scanned": 3461622514,
+  "clean_high_confidence_unique_trades": 59,
+  "close_events_seen": 9172,
+  "files_scanned": 224,
+  "generated_at_utc": "2026-06-07T12:29:07.343494+00:00",
+  "high_confidence_unique_trades": 74,
+  "json_records": 9306144,
+  "legacy_root": "/home/rfing/READ_ONLY_LEGACY",
+  "lines_scanned": 12341503,
+  "output_dir": "/home/rfing/ODA_TRABOT/analysis/live_paper_outside_window_audit",
+  "outside_window_positive_events": 1290,
+  "positive_close_events_seen": 1755,
+  "protected_window_et": "03:00-09:00",
+  "runtime_paper_unique_trades": 1,
+  "unique_outside_window_positive_trades": 87
+}

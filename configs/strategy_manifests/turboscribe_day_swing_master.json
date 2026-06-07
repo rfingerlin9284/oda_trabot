@@ -1,0 +1,321 @@
+{
+  "manifest_id": "turboscribe_day_swing_master",
+  "label": "TurboScribe Day/Swing Master Cartridge Menu",
+  "library_artifact": "analysis/turboscribe/full_convertible_strategy_library.json",
+  "readable_report": "analysis/turboscribe/full_convertible_strategy_library.md",
+  "runtime_socket": "ODA_TRABOT_STRATEGY_PACK",
+  "source_policy": "Strategies are derived from TurboScribe-named local archives/docs and must enter runtime only through strategy packs.",
+  "runtime_policy": {
+    "broker_mode": "OANDA practice only",
+    "allowed_connections": [
+      "market feature builder",
+      "SignalPipelineShell",
+      "SignalSelector",
+      "PositionSizer",
+      "OrderPreviewBuilder",
+      "runtime trade management"
+    ],
+    "blocked_connections": [
+      "direct broker execution from transcript rules",
+      "strategy-specific broker clients",
+      "live-money activation without replay and paper receipts",
+      "options/equities/crypto execution inside the OANDA cartridge"
+    ]
+  },
+  "cartridge_groups": [
+    {
+      "group_id": "active_now_m15_proxy",
+      "status": "swappable_now",
+      "pack_path": "configs/strategy_packs/turboscribe_phase1.json",
+      "description": "M15 candle-derived proxies that can run through the current OANDA practice pipeline.",
+      "strategy_ids": [
+        "ema9_first_touch_continuation",
+        "prop_desk_scalp_playbook",
+        "false_breakout_filter",
+        "range_bounce_breakout_classifier",
+        "systematic_risk_reward_ev_filter"
+      ]
+    },
+    {
+      "group_id": "next_oanda_day_swing",
+      "status": "disabled_until_data_modules_exist",
+      "description": "Highest-value forex/day/swing cartridges to build next for the existing bot.",
+      "strategy_ids": [
+        "top_down_bias_stack",
+        "simple_5m_first_15m_bias_scalp",
+        "opening_range_ai_alert_model",
+        "swing_pullback_continuation"
+      ]
+    },
+    {
+      "group_id": "advanced_market_structure",
+      "status": "disabled_until_structure_detectors_exist",
+      "description": "SMC/ICT/supply-demand cartridges that require deterministic zone, liquidity, and imbalance detection.",
+      "strategy_ids": [
+        "order_block_retest",
+        "liquidity_sweep_fvg_midpoint",
+        "ict_opening_gap_discount_premium",
+        "supply_demand_zone_rejection",
+        "liquidity_manipulation_structure_to_structure"
+      ]
+    },
+    {
+      "group_id": "mechanical_lower_timeframe",
+      "status": "disabled_until_m1_m5_replay_exists",
+      "description": "Mechanical scalping cartridges that need lower-timeframe replay before they are trusted.",
+      "strategy_ids": [
+        "fractal_sma_crossover_scalp",
+        "parabolic_sar_cci_scalp",
+        "ma_crossover_trend_filter"
+      ]
+    },
+    {
+      "group_id": "research_and_risk_modules",
+      "status": "support_only",
+      "description": "Modules that strengthen testing, sizing, expectancy, and research discipline.",
+      "strategy_ids": [
+        "smb_quant_modeling_process",
+        "swing_ladder_core_overlay"
+      ]
+    },
+    {
+      "group_id": "separate_bot_families",
+      "status": "not_for_oanda_cartridge",
+      "description": "Convertible methods that need different market data and execution stacks.",
+      "strategy_ids": [
+        "orderflow_value_area_auction",
+        "crypto_rotation_trend_model",
+        "equity_catalyst_sector_swing",
+        "defined_risk_options_income",
+        "short_selling_risk_framework"
+      ]
+    }
+  ],
+  "strategy_switchboard": [
+    {
+      "strategy_id": "top_down_bias_stack",
+      "target_pack": "configs/strategy_packs/turboscribe_phase2_top_down.json",
+      "status": "disabled_until_multi_timeframe_fetcher",
+      "data_modules": ["weekly candles", "daily candles", "H4 candles", "H1/M30/M15 candles"],
+      "detectors": ["multi_timeframe_bias", "lower_timeframe_realignment"],
+      "pipeline_fields": ["top_down_bias_score", "entry_timeframe_alignment_score"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "ema9_first_touch_continuation",
+      "target_pack": "configs/strategy_packs/turboscribe_phase1.json",
+      "status": "partially_active",
+      "data_modules": ["M15 candles", "EMA 9", "spread"],
+      "detectors": ["ema9_reclaim", "first_touch_quality", "late_touch_penalty"],
+      "pipeline_fields": ["ema_9_reclaim_score", "first_touch_quality", "late_touch_penalty"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "prop_desk_scalp_playbook",
+      "target_pack": "configs/strategy_packs/turboscribe_phase1.json",
+      "status": "partially_active_needs_m1_m5",
+      "data_modules": ["M1/M5 candles", "bid/ask spread", "session clock", "recent volatility"],
+      "detectors": ["micro_momentum", "scalp_pressure", "scratch_if_no_followthrough"],
+      "pipeline_fields": ["momentum_score", "spread_score", "post_break_acceptance_score", "two_r_available"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "simple_5m_first_15m_bias_scalp",
+      "target_pack": "configs/strategy_packs/turboscribe_phase2_session_scalp.json",
+      "status": "disabled_until_session_and_m5_data",
+      "data_modules": ["session calendar", "M15 first candle", "M5 candles"],
+      "detectors": ["session_open_15m_bias", "session_retest_score", "two_r_available"],
+      "pipeline_fields": ["session_bias_score", "entry_timeframe_alignment_score", "two_r_available"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "opening_range_ai_alert_model",
+      "target_pack": "configs/strategy_packs/turboscribe_phase2_opening_range.json",
+      "status": "support_module_disabled_until_session_data",
+      "data_modules": ["session open", "M1/M5/M15 candles", "volume when available"],
+      "detectors": ["opening_range_levels", "alert_condition_compiler"],
+      "pipeline_fields": ["opening_range_break_score", "post_break_acceptance_score"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "false_breakout_filter",
+      "target_pack": "configs/strategy_packs/turboscribe_phase1.json",
+      "status": "partially_active",
+      "data_modules": ["M15 candles", "support/resistance levels"],
+      "detectors": ["level_touch_count", "break_followthrough", "failed_break_risk"],
+      "pipeline_fields": ["level_touch_count", "break_followthrough_score", "failed_break_risk", "post_break_acceptance_score"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "range_bounce_breakout_classifier",
+      "target_pack": "configs/strategy_packs/turboscribe_phase1.json",
+      "status": "partially_active",
+      "data_modules": ["M15 candles", "recent high/low range"],
+      "detectors": ["range_width", "range_rejection", "breakout_prep"],
+      "pipeline_fields": ["range_width_score", "support_rejection_score", "resistance_rejection_score", "chop_penalty"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "order_block_retest",
+      "target_pack": "configs/strategy_packs/turboscribe_phase3_smc.json",
+      "status": "disabled_until_structure_detectors",
+      "data_modules": ["M15/H1/H4 candles", "swing structure"],
+      "detectors": ["market_structure_break", "displacement_score", "order_block_zone", "retest_rejection"],
+      "pipeline_fields": ["structure_break_score", "displacement_score", "order_block_retest_score"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "liquidity_sweep_fvg_midpoint",
+      "target_pack": "configs/strategy_packs/turboscribe_phase3_smc.json",
+      "status": "disabled_until_liquidity_and_fvg_detectors",
+      "data_modules": ["M15/H1/H4 candles", "swing highs/lows"],
+      "detectors": ["liquidity_sweep", "fair_value_gap", "fvg_midpoint", "sweep_extreme_invalidation"],
+      "pipeline_fields": ["liquidity_sweep_score", "fvg_midpoint_score", "top_down_bias_score"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "ict_opening_gap_discount_premium",
+      "target_pack": "configs/strategy_packs/turboscribe_phase3_ict.json",
+      "status": "disabled_until_session_gap_data",
+      "data_modules": ["session calendar", "opening gap", "premium/discount range"],
+      "detectors": ["opening_gap", "equilibrium", "premium_discount_zone", "killzone_window"],
+      "pipeline_fields": ["opening_gap_score", "discount_premium_score", "entry_timeframe_alignment_score"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "supply_demand_zone_rejection",
+      "target_pack": "configs/strategy_packs/turboscribe_phase3_zones.json",
+      "status": "disabled_until_zone_detectors",
+      "data_modules": ["M15/H1/H4 candles", "zone history"],
+      "detectors": ["supply_demand_zone", "zone_freshness", "touch_count", "rejection_strength"],
+      "pipeline_fields": ["zone_freshness_score", "support_rejection_score", "resistance_rejection_score"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "liquidity_manipulation_structure_to_structure",
+      "target_pack": "configs/strategy_packs/turboscribe_phase3_liquidity.json",
+      "status": "disabled_until_liquidity_map",
+      "data_modules": ["swing highs/lows", "equal highs/lows", "session levels"],
+      "detectors": ["retail_liquidity_pool", "sweep_confirmation", "structure_target"],
+      "pipeline_fields": ["liquidity_sweep_score", "structure_target_score", "failed_break_risk"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "orderflow_value_area_auction",
+      "target_pack": "separate/orderflow_value_area_auction",
+      "status": "separate_bot_requires_orderflow_feed",
+      "data_modules": ["volume profile", "value area", "VWAP", "delta/orderflow"],
+      "detectors": ["value_area", "auction_acceptance", "orderflow_confirmation"],
+      "pipeline_fields": [],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "ma_crossover_trend_filter",
+      "target_pack": "configs/strategy_packs/turboscribe_phase2_trend_filters.json",
+      "status": "support_filter_disabled_until_replay",
+      "data_modules": ["M5/M15/H1 candles", "moving averages"],
+      "detectors": ["ma_cross", "ma_slope", "crossover_age", "chop_filter"],
+      "pipeline_fields": ["trend_score", "chop_penalty"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "fractal_sma_crossover_scalp",
+      "target_pack": "configs/strategy_packs/turboscribe_phase4_mechanical_scalps.json",
+      "status": "disabled_until_m1_m5_replay",
+      "data_modules": ["M1/M5 candles", "SMA", "fractal pivots"],
+      "detectors": ["fractal_pivot", "sma_cross", "whipsaw_filter"],
+      "pipeline_fields": ["micro_structure_score", "momentum_score", "chop_penalty"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "parabolic_sar_cci_scalp",
+      "target_pack": "configs/strategy_packs/turboscribe_phase4_mechanical_scalps.json",
+      "status": "disabled_until_m1_m5_replay",
+      "data_modules": ["M1/M5 candles", "Parabolic SAR", "CCI"],
+      "detectors": ["sar_flip", "cci_regime", "chop_filter"],
+      "pipeline_fields": ["sar_flip_score", "cci_momentum_score", "chop_penalty"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "swing_ladder_core_overlay",
+      "target_pack": "configs/strategy_packs/turboscribe_phase2_swing_overlay.json",
+      "status": "support_overlay_disabled_until_swing_state",
+      "data_modules": ["daily/H4 candles", "position state", "portfolio exposure"],
+      "detectors": ["trend_regime", "add_on_trigger", "de_risk_trigger"],
+      "pipeline_fields": ["top_down_bias_score", "trend_regime_score"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "swing_pullback_continuation",
+      "target_pack": "configs/strategy_packs/turboscribe_phase2_swing_pullback.json",
+      "status": "disabled_until_daily_h4_h1",
+      "data_modules": ["daily candles", "H4 candles", "H1 candles"],
+      "detectors": ["trend_stack", "pullback_depth", "reclaim_confirmation"],
+      "pipeline_fields": ["top_down_bias_score", "pullback_quality_score", "entry_timeframe_alignment_score"],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "systematic_risk_reward_ev_filter",
+      "target_pack": "configs/strategy_packs/turboscribe_phase1.json",
+      "status": "active_risk_module",
+      "data_modules": ["planned entry", "stop", "target", "account risk state"],
+      "detectors": ["two_r_available", "expectancy_tracker", "daily_loss_breaker"],
+      "pipeline_fields": ["risk_reward", "two_r_available"],
+      "risk_module": "self"
+    },
+    {
+      "strategy_id": "smb_quant_modeling_process",
+      "target_pack": "research/experiment_registry",
+      "status": "research_framework",
+      "data_modules": ["feature store", "replay engine", "out-of-sample split"],
+      "detectors": ["hypothesis_registry", "backtest_metrics", "paper_trade_metrics"],
+      "pipeline_fields": [],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "crypto_rotation_trend_model",
+      "target_pack": "separate/crypto_rotation_trend_model",
+      "status": "separate_crypto_bot",
+      "data_modules": ["crypto universe", "exchange candles", "liquidity", "relative strength"],
+      "detectors": ["relative_strength_rank", "volatility_sizing", "trend_state"],
+      "pipeline_fields": [],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "equity_catalyst_sector_swing",
+      "target_pack": "separate/equity_catalyst_sector_swing",
+      "status": "separate_equity_bot",
+      "data_modules": ["equity universe", "news/catalyst calendar", "earnings", "sector ranks"],
+      "detectors": ["catalyst_tag", "sector_relative_strength", "technical_trigger"],
+      "pipeline_fields": [],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    },
+    {
+      "strategy_id": "defined_risk_options_income",
+      "target_pack": "separate/defined_risk_options_income",
+      "status": "separate_options_bot",
+      "data_modules": ["options chain", "Greeks", "IV rank", "expiration/event calendar"],
+      "detectors": ["spread_builder", "iron_condor_builder", "event_risk_filter"],
+      "pipeline_fields": [],
+      "risk_module": "defined_risk_options_sizer"
+    },
+    {
+      "strategy_id": "short_selling_risk_framework",
+      "target_pack": "separate/short_selling_risk_framework",
+      "status": "separate_equity_futures_risk_module",
+      "data_modules": ["borrow/liquidity if stocks", "squeeze risk", "short interest where available"],
+      "detectors": ["weakness_scanner", "squeeze_risk_filter", "short_exposure_cap"],
+      "pipeline_fields": [],
+      "risk_module": "systematic_risk_reward_ev_filter"
+    }
+  ],
+  "implementation_order": [
+    "Keep turboscribe_phase1 as the active M15-safe cartridge.",
+    "Build multi-timeframe candle fetcher and activate top_down_bias_stack.",
+    "Add M5/session support for simple_5m_first_15m_bias_scalp and opening_range_ai_alert_model.",
+    "Build market-structure, order-block, liquidity-sweep, and FVG detectors.",
+    "Build supply/demand zone freshness and rejection scoring.",
+    "Replay lower-timeframe mechanical scalps before activation.",
+    "Split options, equities, crypto, and orderflow methods into separate bot families."
+  ]
+}

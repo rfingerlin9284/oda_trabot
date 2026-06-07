@@ -1,0 +1,2712 @@
+{
+  "generated_at_utc": "2026-06-05T17:41:17.691083+00:00",
+  "scan_roots": [
+    "/home/rfing"
+  ],
+  "windows_c_drive_exact_filename_search": {
+    "status": "completed separately with PowerShell .NET recursive filename search",
+    "exact_turboscribe_named_files_found": 0
+  },
+  "turboscribe_named_matches": 76,
+  "zip_matches": 73,
+  "unique_archive_hashes": 9,
+  "archives": [
+    {
+      "sha256": "8f193f490a48fce8463db0a627d03a82b75d48f9e18a76cb15cfe9faff22aeaf",
+      "sha256_prefix": "8f193f490a48",
+      "export_id": "1901616476",
+      "copies": [
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/TurboScribe Export 1901616476.zip",
+          "size_bytes": 202004,
+          "mtime_local": "2026-04-05 06:38:46"
+        }
+      ],
+      "canonical_path": "/home/rfing/READ_ONLY_LEGACY/TurboScribe Export 1901616476.zip",
+      "entry_count": 6,
+      "total_uncompressed_bytes": 265184,
+      "extension_counts": {
+        ".txt": 2,
+        ".srt": 0,
+        ".csv": 0,
+        ".pdf": 2,
+        ".docx": 2
+      },
+      "entries": [
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge.pdf",
+          "size_bytes": 81778,
+          "compressed_bytes": 72806
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge.docx",
+          "size_bytes": 22857,
+          "compressed_bytes": 21706
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.pdf",
+          "size_bytes": 70362,
+          "compressed_bytes": 62836
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge.txt",
+          "size_bytes": 38270,
+          "compressed_bytes": 13898
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.txt",
+          "size_bytes": 32638,
+          "compressed_bytes": 11129
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.docx",
+          "size_bytes": 19279,
+          "compressed_bytes": 18121
+        }
+      ],
+      "best_text_document_count": 2
+    },
+    {
+      "sha256": "4228f0b0a162640bea1d16c30e963e9f6373ea2a3be5af5bbca1f74144ec88cd",
+      "sha256_prefix": "4228f0b0a162",
+      "export_id": "2465927669",
+      "copies": [
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip",
+          "size_bytes": 644053,
+          "mtime_local": "2026-03-01 23:41:10"
+        }
+      ],
+      "canonical_path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip",
+      "entry_count": 24,
+      "total_uncompressed_bytes": 849561,
+      "extension_counts": {
+        ".txt": 8,
+        ".srt": 0,
+        ".csv": 0,
+        ".pdf": 8,
+        ".docx": 8
+      },
+      "entries": [
+        {
+          "name": "Forex trading Strategy 100% winning trades!! WIN every trade you take!!!.txt",
+          "size_bytes": 12021,
+          "compressed_bytes": 4312
+        },
+        {
+          "name": "How do ( FVG, OB, RB ) work.txt",
+          "size_bytes": 14665,
+          "compressed_bytes": 5013
+        },
+        {
+          "name": "How I Make $1,000Day with ONE Simple Strategy [100x Trading Tutorial].txt",
+          "size_bytes": 28396,
+          "compressed_bytes": 9832
+        },
+        {
+          "name": "How I Make $1,000Day with ONE Simple Strategy [100x Trading Tutorial].pdf",
+          "size_bytes": 63154,
+          "compressed_bytes": 56477
+        },
+        {
+          "name": "How do ( FVG, OB, RB ) work.pdf",
+          "size_bytes": 35702,
+          "compressed_bytes": 31453
+        },
+        {
+          "name": "How I Made $1,000,000 in 51 Days of Day Trading (Full Training).txt",
+          "size_bytes": 101770,
+          "compressed_bytes": 33412
+        },
+        {
+          "name": "ChatGPT Trading Strategy Made 19527% Profit ( FULL TUTORIAL ).pdf",
+          "size_bytes": 27595,
+          "compressed_bytes": 24047
+        },
+        {
+          "name": "How do ( FVG, OB, RB ) work.docx",
+          "size_bytes": 12241,
+          "compressed_bytes": 11070
+        },
+        {
+          "name": "How I Make $1,000Day with ONE Simple Strategy [100x Trading Tutorial].docx",
+          "size_bytes": 17501,
+          "compressed_bytes": 16342
+        },
+        {
+          "name": "How Liquidity and Manipulations Work.pdf",
+          "size_bytes": 27923,
+          "compressed_bytes": 24068
+        },
+        {
+          "name": "My Simple 5 Minute Scalping Strategy (Rules Based).pdf",
+          "size_bytes": 49816,
+          "compressed_bytes": 44066
+        },
+        {
+          "name": "This Trading Strategy is Boring, but Made Me My First $100,000.pdf",
+          "size_bytes": 59835,
+          "compressed_bytes": 52816
+        },
+        {
+          "name": "ChatGPT Trading Strategy Made 19527% Profit ( FULL TUTORIAL ).txt",
+          "size_bytes": 7213,
+          "compressed_bytes": 2961
+        },
+        {
+          "name": "This Trading Strategy is Boring, but Made Me My First $100,000.docx",
+          "size_bytes": 16821,
+          "compressed_bytes": 15659
+        },
+        {
+          "name": "My Simple 5 Minute Scalping Strategy (Rules Based).docx",
+          "size_bytes": 14036,
+          "compressed_bytes": 12872
+        },
+        {
+          "name": "Forex trading Strategy 100% winning trades!! WIN every trade you take!!!.pdf",
+          "size_bytes": 33719,
+          "compressed_bytes": 29819
+        },
+        {
+          "name": "How Liquidity and Manipulations Work.docx",
+          "size_bytes": 10329,
+          "compressed_bytes": 9156
+        },
+        {
+          "name": "How Liquidity and Manipulations Work.txt",
+          "size_bytes": 9097,
+          "compressed_bytes": 3244
+        },
+        {
+          "name": "My Simple 5 Minute Scalping Strategy (Rules Based).txt",
+          "size_bytes": 21052,
+          "compressed_bytes": 6498
+        },
+        {
+          "name": "How I Made $1,000,000 in 51 Days of Day Trading (Full Training).pdf",
+          "size_bytes": 191916,
+          "compressed_bytes": 172375
+        },
+        {
+          "name": "Forex trading Strategy 100% winning trades!! WIN every trade you take!!!.docx",
+          "size_bytes": 11417,
+          "compressed_bytes": 10250
+        },
+        {
+          "name": "How I Made $1,000,000 in 51 Days of Day Trading (Full Training).docx",
+          "size_bytes": 45638,
+          "compressed_bytes": 44583
+        },
+        {
+          "name": "This Trading Strategy is Boring, but Made Me My First $100,000.txt",
+          "size_bytes": 27619,
+          "compressed_bytes": 8879
+        },
+        {
+          "name": "ChatGPT Trading Strategy Made 19527% Profit ( FULL TUTORIAL ).docx",
+          "size_bytes": 10085,
+          "compressed_bytes": 8907
+        }
+      ],
+      "best_text_document_count": 8
+    },
+    {
+      "sha256": "e0b936ecc18d9640ef17ac76d9eafa5344cbdf129e7d408f6853ae1d12b27a50",
+      "sha256_prefix": "e0b936ecc18d",
+      "export_id": "2971328458",
+      "copies": [
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 2971328458.zip",
+          "size_bytes": 1293063,
+          "mtime_local": "2026-03-27 22:56:02"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+          "size_bytes": 1293063,
+          "mtime_local": "2026-03-27 22:56:02"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 2971328458.zip",
+          "size_bytes": 1293063,
+          "mtime_local": "2026-03-27 22:56:02"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+          "size_bytes": 1293063,
+          "mtime_local": "2026-03-27 22:56:02"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 2971328458.zip",
+          "size_bytes": 1293063,
+          "mtime_local": "2026-03-27 22:56:02"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+          "size_bytes": 1293063,
+          "mtime_local": "2026-03-27 22:56:02"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 2971328458.zip",
+          "size_bytes": 1293063,
+          "mtime_local": "2026-03-27 22:56:02"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+          "size_bytes": 1293063,
+          "mtime_local": "2026-03-27 22:56:02"
+        }
+      ],
+      "canonical_path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 2971328458.zip",
+      "entry_count": 65,
+      "total_uncompressed_bytes": 2203359,
+      "extension_counts": {
+        ".txt": 13,
+        ".srt": 13,
+        ".csv": 13,
+        ".pdf": 13,
+        ".docx": 13
+      },
+      "entries": [
+        {
+          "name": "How to Build a Basic Android Game in Just 7 Minutes (Unity).srt",
+          "size_bytes": 17586,
+          "compressed_bytes": 6550
+        },
+        {
+          "name": "How to Make a Game in 10 Minutes (and then publish it).srt",
+          "size_bytes": 16341,
+          "compressed_bytes": 5619
+        },
+        {
+          "name": "Wall Street Trader I Will EXPOSE Exactly HOW The Market Algorithm Works.srt",
+          "size_bytes": 187923,
+          "compressed_bytes": 63674
+        },
+        {
+          "name": "How to make YOUR dream game with no experience.txt",
+          "size_bytes": 9631,
+          "compressed_bytes": 4062
+        },
+        {
+          "name": "Build Anything with Grok 3, Here's How.srt",
+          "size_bytes": 68664,
+          "compressed_bytes": 23879
+        },
+        {
+          "name": "How to make YOUR dream game with no experience.csv",
+          "size_bytes": 15132,
+          "compressed_bytes": 6252
+        },
+        {
+          "name": "I Made a Mobile Game for the Money - Here's how  Devlog.csv",
+          "size_bytes": 7515,
+          "compressed_bytes": 3333
+        },
+        {
+          "name": "How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].srt",
+          "size_bytes": 57854,
+          "compressed_bytes": 19358
+        },
+        {
+          "name": "How to Make a Game in 10 Minutes (and then publish it).docx",
+          "size_bytes": 10400,
+          "compressed_bytes": 9219
+        },
+        {
+          "name": "I Made a Mobile Game for the Money - Here's how  Devlog.srt",
+          "size_bytes": 9401,
+          "compressed_bytes": 3853
+        },
+        {
+          "name": "How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].txt",
+          "size_bytes": 30775,
+          "compressed_bytes": 10552
+        },
+        {
+          "name": "Wall Street Trader I Will EXPOSE Exactly HOW The Market Algorithm Works.docx",
+          "size_bytes": 43935,
+          "compressed_bytes": 42873
+        },
+        {
+          "name": "Options Trading Explained - COMPLETE BEGINNERS GUIDE (Part 1).pdf",
+          "size_bytes": 35879,
+          "compressed_bytes": 31459
+        },
+        {
+          "name": "This Is How The SMART Money Manipulates YOUR Trades! (Leaked Video).csv",
+          "size_bytes": 27758,
+          "compressed_bytes": 10643
+        },
+        {
+          "name": "Build Anything with Grok 3, Here's How.csv",
+          "size_bytes": 54933,
+          "compressed_bytes": 20285
+        },
+        {
+          "name": "How to make YOUR dream game with no experience.docx",
+          "size_bytes": 11248,
+          "compressed_bytes": 10076
+        },
+        {
+          "name": "I Made a Mobile Game for the Money - Here's how  Devlog.docx",
+          "size_bytes": 9272,
+          "compressed_bytes": 8092
+        },
+        {
+          "name": "The Einstein Of Wall Street Reveals Successes And Failures As NYSE's Most Famous Trader.csv",
+          "size_bytes": 9839,
+          "compressed_bytes": 4199
+        },
+        {
+          "name": "How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].pdf",
+          "size_bytes": 70647,
+          "compressed_bytes": 62192
+        },
+        {
+          "name": "The Einstein Of Wall Street Reveals Successes And Failures As NYSE's Most Famous Trader.txt",
+          "size_bytes": 6363,
+          "compressed_bytes": 2891
+        },
+        {
+          "name": "Can I remake those SHTTY mobile games in 1 HOUR.pdf",
+          "size_bytes": 61066,
+          "compressed_bytes": 51599
+        },
+        {
+          "name": "Build Anything with Grok 3, Here's How.pdf",
+          "size_bytes": 74473,
+          "compressed_bytes": 65616
+        },
+        {
+          "name": "Can I remake those SHTTY mobile games in 1 HOUR.docx",
+          "size_bytes": 17443,
+          "compressed_bytes": 16264
+        },
+        {
+          "name": "Options Trading Explained - COMPLETE BEGINNERS GUIDE (Part 1).docx",
+          "size_bytes": 11326,
+          "compressed_bytes": 10155
+        },
+        {
+          "name": "How to make YOUR dream game with no experience.srt",
+          "size_bytes": 18838,
+          "compressed_bytes": 7217
+        },
+        {
+          "name": "How to Make a Game in 10 Minutes (and then publish it).txt",
+          "size_bytes": 8443,
+          "compressed_bytes": 3099
+        },
+        {
+          "name": "How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].docx",
+          "size_bytes": 18730,
+          "compressed_bytes": 17567
+        },
+        {
+          "name": "Wall Street Trader I Will EXPOSE Exactly HOW The Market Algorithm Works.txt",
+          "size_bytes": 91123,
+          "compressed_bytes": 31416
+        },
+        {
+          "name": "How to Make a Game in 10 Minutes (and then publish it).pdf",
+          "size_bytes": 29856,
+          "compressed_bytes": 25467
+        },
+        {
+          "name": "Options Trading Explained - COMPLETE BEGINNERS GUIDE (Part 1).txt",
+          "size_bytes": 12225,
+          "compressed_bytes": 4063
+        },
+        {
+          "name": "Build Anything with Grok 3, Here's How.docx",
+          "size_bytes": 20788,
+          "compressed_bytes": 19632
+        },
+        {
+          "name": "Technical Analysis is Hard (until you see this).txt",
+          "size_bytes": 24397,
+          "compressed_bytes": 9224
+        },
+        {
+          "name": "I Made a Mobile Game for the Money - Here's how  Devlog.txt",
+          "size_bytes": 4812,
+          "compressed_bytes": 2256
+        },
+        {
+          "name": "Can I remake those SHTTY mobile games in 1 HOUR.csv",
+          "size_bytes": 35140,
+          "compressed_bytes": 13467
+        },
+        {
+          "name": "Options Trading Explained - COMPLETE BEGINNERS GUIDE (Part 1).csv",
+          "size_bytes": 19370,
+          "compressed_bytes": 6872
+        },
+        {
+          "name": "The Difference Between Trading and Investing.txt",
+          "size_bytes": 11888,
+          "compressed_bytes": 4900
+        },
+        {
+          "name": "Technical Analysis is Hard (until you see this).csv",
+          "size_bytes": 36594,
+          "compressed_bytes": 13711
+        },
+        {
+          "name": "This Is How The SMART Money Manipulates YOUR Trades! (Leaked Video).docx",
+          "size_bytes": 14153,
+          "compressed_bytes": 12987
+        },
+        {
+          "name": "The Einstein Of Wall Street Reveals Successes And Failures As NYSE's Most Famous Trader.srt",
+          "size_bytes": 12416,
+          "compressed_bytes": 4862
+        },
+        {
+          "name": "How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].csv",
+          "size_bytes": 47095,
+          "compressed_bytes": 16548
+        },
+        {
+          "name": "How to make YOUR dream game with no experience.pdf",
+          "size_bytes": 32015,
+          "compressed_bytes": 28078
+        },
+        {
+          "name": "This Is How The SMART Money Manipulates YOUR Trades! (Leaked Video).pdf",
+          "size_bytes": 45831,
+          "compressed_bytes": 40415
+        },
+        {
+          "name": "The Difference Between Trading and Investing.csv",
+          "size_bytes": 17418,
+          "compressed_bytes": 7031
+        },
+        {
+          "name": "How to Make a Game in 10 Minutes (and then publish it).csv",
+          "size_bytes": 12963,
+          "compressed_bytes": 4786
+        },
+        {
+          "name": "This Is How The SMART Money Manipulates YOUR Trades! (Leaked Video).txt",
+          "size_bytes": 17308,
+          "compressed_bytes": 6575
+        },
+        {
+          "name": "The Difference Between Trading and Investing.srt",
+          "size_bytes": 21419,
+          "compressed_bytes": 8060
+        },
+        {
+          "name": "This Is How The SMART Money Manipulates YOUR Trades! (Leaked Video).srt",
+          "size_bytes": 34707,
+          "compressed_bytes": 12451
+        },
+        {
+          "name": "How to Build a Basic Android Game in Just 7 Minutes (Unity).docx",
+          "size_bytes": 10808,
+          "compressed_bytes": 9635
+        },
+        {
+          "name": "How to Build a Basic Android Game in Just 7 Minutes (Unity).txt",
+          "size_bytes": 8997,
+          "compressed_bytes": 3628
+        },
+        {
+          "name": "Wall Street Trader I Will EXPOSE Exactly HOW The Market Algorithm Works.csv",
+          "size_bytes": 152369,
+          "compressed_bytes": 53998
+        },
+        {
+          "name": "Build Anything with Grok 3, Here's How.txt",
+          "size_bytes": 32221,
+          "compressed_bytes": 11947
+        },
+        {
+          "name": "Can I remake those SHTTY mobile games in 1 HOUR.txt",
+          "size_bytes": 21634,
+          "compressed_bytes": 8633
+        },
+        {
+          "name": "How to Build a Basic Android Game in Just 7 Minutes (Unity).pdf",
+          "size_bytes": 30758,
+          "compressed_bytes": 26785
+        },
+        {
+          "name": "I Made a Mobile Game for the Money - Here's how  Devlog.pdf",
+          "size_bytes": 22614,
+          "compressed_bytes": 19550
+        },
+        {
+          "name": "The Einstein Of Wall Street Reveals Successes And Failures As NYSE's Most Famous Trader.pdf",
+          "size_bytes": 27900,
+          "compressed_bytes": 23931
+        },
+        {
+          "name": "The Difference Between Trading and Investing.docx",
+          "size_bytes": 12198,
+          "compressed_bytes": 11023
+        },
+        {
+          "name": "The Einstein Of Wall Street Reveals Successes And Failures As NYSE's Most Famous Trader.docx",
+          "size_bytes": 10133,
+          "compressed_bytes": 8959
+        },
+        {
+          "name": "The Difference Between Trading and Investing.pdf",
+          "size_bytes": 36692,
+          "compressed_bytes": 31896
+        },
+        {
+          "name": "Wall Street Trader I Will EXPOSE Exactly HOW The Market Algorithm Works.pdf",
+          "size_bytes": 178410,
+          "compressed_bytes": 158829
+        },
+        {
+          "name": "Options Trading Explained - COMPLETE BEGINNERS GUIDE (Part 1).srt",
+          "size_bytes": 24167,
+          "compressed_bytes": 8087
+        },
+        {
+          "name": "Technical Analysis is Hard (until you see this).pdf",
+          "size_bytes": 60342,
+          "compressed_bytes": 52791
+        },
+        {
+          "name": "Can I remake those SHTTY mobile games in 1 HOUR.srt",
+          "size_bytes": 44956,
+          "compressed_bytes": 15996
+        },
+        {
+          "name": "Technical Analysis is Hard (until you see this).docx",
+          "size_bytes": 17183,
+          "compressed_bytes": 16020
+        },
+        {
+          "name": "Technical Analysis is Hard (until you see this).srt",
+          "size_bytes": 44951,
+          "compressed_bytes": 15925
+        },
+        {
+          "name": "How to Build a Basic Android Game in Just 7 Minutes (Unity).csv",
+          "size_bytes": 14093,
+          "compressed_bytes": 5653
+        }
+      ],
+      "best_text_document_count": 13
+    },
+    {
+      "sha256": "22ca901c9aaf94679670a013b42b47173a086497450b40b484181c83f4c6a291",
+      "sha256_prefix": "22ca901c9aaf",
+      "export_id": "3076884018",
+      "copies": [
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_CLONE/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_FREEZE/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_DEV/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_PROD/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_CLONE/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_FREEZE/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_DEV/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_PROD/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_CLONE/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_COINBASE_CLEAN__legacy_cutover_20260418/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_FREEZE/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_DEV/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_PROD/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/DUAL_BOT_LEGACY/RBOTZILLA_COINBASE_CLEAN__legacy_cutover_20260418/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/cba_prod_current__1d0579d__d15f12e29ea9__20260425_053025/repo/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 11:35:25"
+        }
+      ],
+      "canonical_path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_CLONE/TurboScribe Export 3076884018.zip",
+      "entry_count": 16,
+      "total_uncompressed_bytes": 709481,
+      "extension_counts": {
+        ".txt": 4,
+        ".srt": 0,
+        ".csv": 4,
+        ".pdf": 4,
+        ".docx": 4
+      },
+      "entries": [
+        {
+          "name": "Order Blocks Explained Trade Like the Banks (No BS Guide).csv",
+          "size_bytes": 49449,
+          "compressed_bytes": 15945
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.pdf",
+          "size_bytes": 79782,
+          "compressed_bytes": 69911
+        },
+        {
+          "name": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).csv",
+          "size_bytes": 23040,
+          "compressed_bytes": 7964
+        },
+        {
+          "name": "Order Blocks Explained Trade Like the Banks (No BS Guide).pdf",
+          "size_bytes": 71833,
+          "compressed_bytes": 62889
+        },
+        {
+          "name": "How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.csv",
+          "size_bytes": 79747,
+          "compressed_bytes": 27997
+        },
+        {
+          "name": "How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.docx",
+          "size_bytes": 25394,
+          "compressed_bytes": 24241
+        },
+        {
+          "name": "Order Blocks Explained Trade Like the Banks (No BS Guide).txt",
+          "size_bytes": 31952,
+          "compressed_bytes": 9578
+        },
+        {
+          "name": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).pdf",
+          "size_bytes": 44072,
+          "compressed_bytes": 38283
+        },
+        {
+          "name": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).txt",
+          "size_bytes": 15465,
+          "compressed_bytes": 5054
+        },
+        {
+          "name": "How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.pdf",
+          "size_bytes": 99313,
+          "compressed_bytes": 89575
+        },
+        {
+          "name": "Order Blocks Explained Trade Like the Banks (No BS Guide).docx",
+          "size_bytes": 17797,
+          "compressed_bytes": 16629
+        },
+        {
+          "name": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).docx",
+          "size_bytes": 12547,
+          "compressed_bytes": 11375
+        },
+        {
+          "name": "How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.txt",
+          "size_bytes": 50699,
+          "compressed_bytes": 17091
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.txt",
+          "size_bytes": 34407,
+          "compressed_bytes": 12049
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.docx",
+          "size_bytes": 20722,
+          "compressed_bytes": 19555
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.csv",
+          "size_bytes": 53262,
+          "compressed_bytes": 18978
+        }
+      ],
+      "best_text_document_count": 4
+    },
+    {
+      "sha256": "3956da1595c91d79548ca1ff40e332541ce8480841461038c81798453baa2557",
+      "sha256_prefix": "3956da1595c9",
+      "export_id": "3076884018",
+      "copies": [
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 10:26:26"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 10:26:26"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 10:26:26"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 10:26:26"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640,
+          "mtime_local": "2026-04-05 10:26:26"
+        }
+      ],
+      "canonical_path": "/home/rfing/READ_ONLY_LEGACY/TurboScribe Export 3076884018.zip",
+      "entry_count": 16,
+      "total_uncompressed_bytes": 709481,
+      "extension_counts": {
+        ".txt": 4,
+        ".srt": 0,
+        ".csv": 4,
+        ".pdf": 4,
+        ".docx": 4
+      },
+      "entries": [
+        {
+          "name": "Order Blocks Explained Trade Like the Banks (No BS Guide).csv",
+          "size_bytes": 49449,
+          "compressed_bytes": 15945
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.pdf",
+          "size_bytes": 79782,
+          "compressed_bytes": 69911
+        },
+        {
+          "name": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).csv",
+          "size_bytes": 23040,
+          "compressed_bytes": 7964
+        },
+        {
+          "name": "Order Blocks Explained Trade Like the Banks (No BS Guide).pdf",
+          "size_bytes": 71833,
+          "compressed_bytes": 62889
+        },
+        {
+          "name": "How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.csv",
+          "size_bytes": 79747,
+          "compressed_bytes": 27997
+        },
+        {
+          "name": "How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.docx",
+          "size_bytes": 25394,
+          "compressed_bytes": 24241
+        },
+        {
+          "name": "Order Blocks Explained Trade Like the Banks (No BS Guide).txt",
+          "size_bytes": 31952,
+          "compressed_bytes": 9578
+        },
+        {
+          "name": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).pdf",
+          "size_bytes": 44072,
+          "compressed_bytes": 38283
+        },
+        {
+          "name": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).txt",
+          "size_bytes": 15465,
+          "compressed_bytes": 5054
+        },
+        {
+          "name": "How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.pdf",
+          "size_bytes": 99313,
+          "compressed_bytes": 89575
+        },
+        {
+          "name": "Order Blocks Explained Trade Like the Banks (No BS Guide).docx",
+          "size_bytes": 17797,
+          "compressed_bytes": 16629
+        },
+        {
+          "name": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).docx",
+          "size_bytes": 12547,
+          "compressed_bytes": 11375
+        },
+        {
+          "name": "How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.txt",
+          "size_bytes": 50699,
+          "compressed_bytes": 17091
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.txt",
+          "size_bytes": 34407,
+          "compressed_bytes": 12049
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.docx",
+          "size_bytes": 20722,
+          "compressed_bytes": 19555
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.csv",
+          "size_bytes": 53262,
+          "compressed_bytes": 18978
+        }
+      ],
+      "best_text_document_count": 4
+    },
+    {
+      "sha256": "3c46848c7b75f693ce25773d105d59cd21ab6742cf5b6450a1072837d0b796d8",
+      "sha256_prefix": "3c46848c7b75",
+      "export_id": "319702483",
+      "copies": [
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 319702483.zip",
+          "size_bytes": 4085841,
+          "mtime_local": "2026-03-27 22:56:07"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+          "size_bytes": 4085841,
+          "mtime_local": "2026-03-27 22:56:07"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 319702483.zip",
+          "size_bytes": 4085841,
+          "mtime_local": "2026-03-27 22:56:07"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+          "size_bytes": 4085841,
+          "mtime_local": "2026-03-27 22:56:07"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 319702483.zip",
+          "size_bytes": 4085841,
+          "mtime_local": "2026-03-27 22:56:07"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+          "size_bytes": 4085841,
+          "mtime_local": "2026-03-27 22:56:07"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 319702483.zip",
+          "size_bytes": 4085841,
+          "mtime_local": "2026-03-27 22:56:07"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+          "size_bytes": 4085841,
+          "mtime_local": "2026-03-27 22:56:07"
+        }
+      ],
+      "canonical_path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 319702483.zip",
+      "entry_count": 200,
+      "total_uncompressed_bytes": 6475887,
+      "extension_counts": {
+        ".txt": 50,
+        ".srt": 50,
+        ".csv": 0,
+        ".pdf": 50,
+        ".docx": 50
+      },
+      "entries": [
+        {
+          "name": "How To Profit From A Trump Presidency In 2025.pdf",
+          "size_bytes": 56787,
+          "compressed_bytes": 50156
+        },
+        {
+          "name": "Profitable Forex Trader With NO BACKTESTING  #TraderTips.docx",
+          "size_bytes": 10461,
+          "compressed_bytes": 9289
+        },
+        {
+          "name": "You'll Fail With Options Trading Until You Understand This ONE Thing.pdf",
+          "size_bytes": 48379,
+          "compressed_bytes": 42649
+        },
+        {
+          "name": "BEST Moving Average Strategy for Daytrading Forex (Easy Crossover Strategy).txt",
+          "size_bytes": 7924,
+          "compressed_bytes": 2486
+        },
+        {
+          "name": "COMPLETE Supply & Demand Trading Course.srt",
+          "size_bytes": 33246,
+          "compressed_bytes": 10562
+        },
+        {
+          "name": "TOP 4 Trading Strategies to Make $500Day For Beginners (2).srt",
+          "size_bytes": 26898,
+          "compressed_bytes": 9260
+        },
+        {
+          "name": "ULTIMATE Scalping Course (For Beginner to Advanced Traders).txt",
+          "size_bytes": 25543,
+          "compressed_bytes": 7541
+        },
+        {
+          "name": "Iron Condor Options Trading Strategy - Best Explanation.srt",
+          "size_bytes": 22619,
+          "compressed_bytes": 7817
+        },
+        {
+          "name": "Profitable Forex Trader With NO BACKTESTING  #TraderTips.txt",
+          "size_bytes": 8021,
+          "compressed_bytes": 3234
+        },
+        {
+          "name": "HODL and DCA are Bad Strategies For Crypto Assets - Here is Why!.txt",
+          "size_bytes": 17591,
+          "compressed_bytes": 6083
+        },
+        {
+          "name": "3 Bitcoin STRATEGIES You NEED to Know (FREE).txt",
+          "size_bytes": 17458,
+          "compressed_bytes": 5995
+        },
+        {
+          "name": "Investing For Beginners - How I Make $17K per Week from Stocks.txt",
+          "size_bytes": 18488,
+          "compressed_bytes": 7395
+        },
+        {
+          "name": "$1 to $34,009.26  Parabolic SAR+CCI Binary Options Trading.docx",
+          "size_bytes": 10312,
+          "compressed_bytes": 9131
+        },
+        {
+          "name": "Small Account Options Income Strategy (Easy).srt",
+          "size_bytes": 30296,
+          "compressed_bytes": 10532
+        },
+        {
+          "name": "I risk $107 to make $7,500 in Trading\u0393\u00c7\u00aa This is how.srt",
+          "size_bytes": 43011,
+          "compressed_bytes": 14292
+        },
+        {
+          "name": "Warren Buffett The FASTEST Way To Living Off Dividends! ($4400month).pdf",
+          "size_bytes": 48491,
+          "compressed_bytes": 42621
+        },
+        {
+          "name": "Algorithmic Trading Using Python - Full Course.srt",
+          "size_bytes": 524208,
+          "compressed_bytes": 161347
+        },
+        {
+          "name": "3 Proven Swing Trading Strategies (That Work).txt",
+          "size_bytes": 14085,
+          "compressed_bytes": 4608
+        },
+        {
+          "name": "Paper Trading on TradingView Tutorial.pdf",
+          "size_bytes": 58079,
+          "compressed_bytes": 51437
+        },
+        {
+          "name": "Jim Simons How To Achieve a 66% Return Per Year (7 Strategies).pdf",
+          "size_bytes": 42412,
+          "compressed_bytes": 37108
+        },
+        {
+          "name": "I Decoded The Liquidity & Manipulation Algorithm In Day Trading.txt",
+          "size_bytes": 12224,
+          "compressed_bytes": 4596
+        },
+        {
+          "name": "I Decoded The Liquidity & Manipulation Algorithm In Day Trading.srt",
+          "size_bytes": 21957,
+          "compressed_bytes": 7825
+        },
+        {
+          "name": "The Trick To Making BIG MONEY In Crypto (incl. Free Strategies).txt",
+          "size_bytes": 11805,
+          "compressed_bytes": 4401
+        },
+        {
+          "name": "How To Profit From A Trump Presidency In 2025.docx",
+          "size_bytes": 15621,
+          "compressed_bytes": 14454
+        },
+        {
+          "name": "DAY TRADING INSANITY!!!.pdf",
+          "size_bytes": 64485,
+          "compressed_bytes": 57022
+        },
+        {
+          "name": "Best Crypto Scalping Strategy for the 5 Minute Time Frame.docx",
+          "size_bytes": 12861,
+          "compressed_bytes": 11686
+        },
+        {
+          "name": "Trading with $10 to Prove it's Not Luck....srt",
+          "size_bytes": 36000,
+          "compressed_bytes": 12213
+        },
+        {
+          "name": "Every Trading Strategy Explained in 12 Minutes (2).txt",
+          "size_bytes": 12444,
+          "compressed_bytes": 4432
+        },
+        {
+          "name": "Bill Poulos Presents Call Options & Put Options Explained In 8 Minutes (Options For Beginners).txt",
+          "size_bytes": 7481,
+          "compressed_bytes": 2688
+        },
+        {
+          "name": "HOW YOU CAN BE A GREAT DAY TRADER!.srt",
+          "size_bytes": 11005,
+          "compressed_bytes": 4203
+        },
+        {
+          "name": "The Trick To Making BIG MONEY In Crypto (incl. Free Strategies).pdf",
+          "size_bytes": 37052,
+          "compressed_bytes": 32176
+        },
+        {
+          "name": "DAY TRADING INSANITY!!!.docx",
+          "size_bytes": 18610,
+          "compressed_bytes": 17450
+        },
+        {
+          "name": "Every Trading Strategy Explained in 12 Minutes (2).docx",
+          "size_bytes": 11711,
+          "compressed_bytes": 10541
+        },
+        {
+          "name": "How People Get Rich With Options Trading (Math Shown).txt",
+          "size_bytes": 5415,
+          "compressed_bytes": 2024
+        },
+        {
+          "name": "Passive Income How I Started Dropshipping From Scratch (STEP BY STEP).pdf",
+          "size_bytes": 56783,
+          "compressed_bytes": 49647
+        },
+        {
+          "name": "3 Proven Swing Trading Strategies (That Work).srt",
+          "size_bytes": 26869,
+          "compressed_bytes": 8776
+        },
+        {
+          "name": "BEST Moving Average Strategy for Daytrading Forex (Easy Crossover Strategy).pdf",
+          "size_bytes": 27938,
+          "compressed_bytes": 24003
+        },
+        {
+          "name": "0DTE Inside the Explosion of Ultra-Risky Options Trading  WSJ.txt",
+          "size_bytes": 5488,
+          "compressed_bytes": 2550
+        },
+        {
+          "name": "The Trick To Making BIG MONEY In Crypto (incl. Free Strategies).srt",
+          "size_bytes": 22524,
+          "compressed_bytes": 7812
+        },
+        {
+          "name": "How to Double Your Money Using The Rule of 72.pdf",
+          "size_bytes": 29594,
+          "compressed_bytes": 25629
+        },
+        {
+          "name": "It\u0393\u00c7\u00d6s Over for the Stock Market Trump\u0393\u00c7\u00d6s \u0393\u00c7\u00ffPlanned\u0393\u00c7\u00d6 Crash Explained.txt",
+          "size_bytes": 13781,
+          "compressed_bytes": 5894
+        },
+        {
+          "name": "0DTE Inside the Explosion of Ultra-Risky Options Trading  WSJ.srt",
+          "size_bytes": 10228,
+          "compressed_bytes": 4096
+        },
+        {
+          "name": "How To Make $5000month with Only $25week.txt",
+          "size_bytes": 10359,
+          "compressed_bytes": 3997
+        },
+        {
+          "name": "Small Account Options Income Strategy (Easy).txt",
+          "size_bytes": 15580,
+          "compressed_bytes": 5683
+        },
+        {
+          "name": "8 Dividend Stocks That Pay Me $660+ Per Month.txt",
+          "size_bytes": 16351,
+          "compressed_bytes": 6275
+        },
+        {
+          "name": "Investing for Beginners - How I Make Millions from Stocks (Full Guide).txt",
+          "size_bytes": 12250,
+          "compressed_bytes": 5388
+        },
+        {
+          "name": "How People Get Rich With Options Trading (Math Shown).srt",
+          "size_bytes": 11454,
+          "compressed_bytes": 4053
+        },
+        {
+          "name": "3 Bitcoin STRATEGIES You NEED to Know (FREE).pdf",
+          "size_bytes": 42843,
+          "compressed_bytes": 38037
+        },
+        {
+          "name": "How To Profit From A Trump Presidency In 2025.txt",
+          "size_bytes": 23025,
+          "compressed_bytes": 7889
+        },
+        {
+          "name": "Jim Simons How To Achieve a 66% Return Per Year (7 Strategies).txt",
+          "size_bytes": 14282,
+          "compressed_bytes": 5872
+        },
+        {
+          "name": "$10 to $11825.40 in 1 hour!  Fractal + SMA Crossover Strategy.pdf",
+          "size_bytes": 34587,
+          "compressed_bytes": 29693
+        },
+        {
+          "name": "The Trick To Making BIG MONEY In Crypto (incl. Free Strategies).docx",
+          "size_bytes": 11795,
+          "compressed_bytes": 10627
+        },
+        {
+          "name": "Warren Buffett The FASTEST Way To Living Off Dividends! ($4400month).docx",
+          "size_bytes": 14104,
+          "compressed_bytes": 12938
+        },
+        {
+          "name": "How to Invest for Beginners in 2025.txt",
+          "size_bytes": 22043,
+          "compressed_bytes": 8500
+        },
+        {
+          "name": "Paper Trading on TradingView Tutorial.docx",
+          "size_bytes": 16700,
+          "compressed_bytes": 15540
+        },
+        {
+          "name": "The $25B Day Trader that Even Warren Buffett Acknowledges.txt",
+          "size_bytes": 19190,
+          "compressed_bytes": 7833
+        },
+        {
+          "name": "You'll Fail With Options Trading Until You Understand This ONE Thing.txt",
+          "size_bytes": 18557,
+          "compressed_bytes": 6847
+        },
+        {
+          "name": "The Vertical Spread Options Strategies (The ULTIMATE In-Depth Guide).srt",
+          "size_bytes": 126057,
+          "compressed_bytes": 37631
+        },
+        {
+          "name": "Hot Stocks Under $10 - For Huge Growth!.pdf",
+          "size_bytes": 35324,
+          "compressed_bytes": 31375
+        },
+        {
+          "name": "The Vertical Spread Options Strategies (The ULTIMATE In-Depth Guide).pdf",
+          "size_bytes": 121425,
+          "compressed_bytes": 109648
+        },
+        {
+          "name": "How to Double Your Money Using The Rule of 72.docx",
+          "size_bytes": 10439,
+          "compressed_bytes": 9265
+        },
+        {
+          "name": "Paper Trading on TradingView Tutorial.srt",
+          "size_bytes": 50769,
+          "compressed_bytes": 17164
+        },
+        {
+          "name": "SPX Gamma Trading Risk $30 to Make $800 (The Strategy Explained!).txt",
+          "size_bytes": 11991,
+          "compressed_bytes": 4235
+        },
+        {
+          "name": "The $25B Day Trader that Even Warren Buffett Acknowledges.docx",
+          "size_bytes": 14774,
+          "compressed_bytes": 13609
+        },
+        {
+          "name": "I risk $107 to make $7,500 in Trading\u0393\u00c7\u00aa This is how.txt",
+          "size_bytes": 20974,
+          "compressed_bytes": 7045
+        },
+        {
+          "name": "What Makes a Really Good TradingView Strategy Max Drawdown, Profit Factor, Win Rate, ....pdf",
+          "size_bytes": 52043,
+          "compressed_bytes": 45822
+        },
+        {
+          "name": "ULTIMATE Scalping Course (For Beginner to Advanced Traders).docx",
+          "size_bytes": 15457,
+          "compressed_bytes": 14281
+        },
+        {
+          "name": "3 Bitcoin STRATEGIES You NEED to Know (FREE).docx",
+          "size_bytes": 13104,
+          "compressed_bytes": 11936
+        },
+        {
+          "name": "$1 to $34,009.26  Parabolic SAR+CCI Binary Options Trading.srt",
+          "size_bytes": 18405,
+          "compressed_bytes": 5875
+        },
+        {
+          "name": "TOP 4 Trading Strategies to Make $500Day For Beginners (2).txt",
+          "size_bytes": 13901,
+          "compressed_bytes": 4864
+        },
+        {
+          "name": "0DTE Inside the Explosion of Ultra-Risky Options Trading  WSJ.docx",
+          "size_bytes": 9663,
+          "compressed_bytes": 8488
+        },
+        {
+          "name": "Warren Buffett 10 Mistakes Every Investor Makes.pdf",
+          "size_bytes": 50101,
+          "compressed_bytes": 43892
+        },
+        {
+          "name": "Every Trading Strategy Explained in 12 Minutes.docx",
+          "size_bytes": 11753,
+          "compressed_bytes": 10584
+        },
+        {
+          "name": "Warren Buffett 10 Mistakes Every Investor Makes.srt",
+          "size_bytes": 35859,
+          "compressed_bytes": 12955
+        },
+        {
+          "name": "SPX Gamma Trading Risk $30 to Make $800 (The Strategy Explained!).pdf",
+          "size_bytes": 34878,
+          "compressed_bytes": 30880
+        },
+        {
+          "name": "$10 to $11825.40 in 1 hour!  Fractal + SMA Crossover Strategy.txt",
+          "size_bytes": 9456,
+          "compressed_bytes": 3758
+        },
+        {
+          "name": "Options Trading For Beginners  Step By Step.docx",
+          "size_bytes": 17847,
+          "compressed_bytes": 16677
+        },
+        {
+          "name": "Every Trading Strategy Explained in 12 Minutes.srt",
+          "size_bytes": 22608,
+          "compressed_bytes": 7802
+        },
+        {
+          "name": "TOP 4 Trading Strategies to Make $500Day For Beginners (2).pdf",
+          "size_bytes": 39082,
+          "compressed_bytes": 34081
+        },
+        {
+          "name": "Profitable Forex Trader With NO BACKTESTING  #TraderTips.pdf",
+          "size_bytes": 29121,
+          "compressed_bytes": 25171
+        },
+        {
+          "name": "SPX Gamma Trading Risk $30 to Make $800 (The Strategy Explained!).docx",
+          "size_bytes": 11401,
+          "compressed_bytes": 10229
+        },
+        {
+          "name": "The Right Way To Buy Options - Long Vertical Spread.srt",
+          "size_bytes": 13465,
+          "compressed_bytes": 4833
+        },
+        {
+          "name": "$1 to $34,009.26  Parabolic SAR+CCI Binary Options Trading.txt",
+          "size_bytes": 9818,
+          "compressed_bytes": 2980
+        },
+        {
+          "name": "How Short Selling Works.srt",
+          "size_bytes": 19500,
+          "compressed_bytes": 7206
+        },
+        {
+          "name": "I risk $107 to make $7,500 in Trading\u0393\u00c7\u00aa This is how.pdf",
+          "size_bytes": 51020,
+          "compressed_bytes": 45205
+        },
+        {
+          "name": "TOP 4 Trading Strategies to Make $500Day For Beginners.pdf",
+          "size_bytes": 39572,
+          "compressed_bytes": 34695
+        },
+        {
+          "name": "DAY TRADING INSANITY!!!.txt",
+          "size_bytes": 28750,
+          "compressed_bytes": 10397
+        },
+        {
+          "name": "$10 to $11825.40 in 1 hour!  Fractal + SMA Crossover Strategy.docx",
+          "size_bytes": 11143,
+          "compressed_bytes": 9969
+        },
+        {
+          "name": "ULTIMATE Scalping Course (For Beginner to Advanced Traders).srt",
+          "size_bytes": 48545,
+          "compressed_bytes": 14963
+        },
+        {
+          "name": "How People Get Rich With Options Trading (Math Shown).pdf",
+          "size_bytes": 24207,
+          "compressed_bytes": 20722
+        },
+        {
+          "name": "Warren Buffett The FASTEST Way To Living Off Dividends! ($4400month).txt",
+          "size_bytes": 17734,
+          "compressed_bytes": 6569
+        },
+        {
+          "name": "What Makes a Really Good TradingView Strategy Max Drawdown, Profit Factor, Win Rate, ....txt",
+          "size_bytes": 20926,
+          "compressed_bytes": 7134
+        },
+        {
+          "name": "Every Trading Strategy Explained in 12 Minutes.txt",
+          "size_bytes": 12440,
+          "compressed_bytes": 4445
+        },
+        {
+          "name": "How to Invest for Beginners in 2025.srt",
+          "size_bytes": 40588,
+          "compressed_bytes": 14471
+        },
+        {
+          "name": "Every Trading Strategy Explained in 12 Minutes (2).pdf",
+          "size_bytes": 36978,
+          "compressed_bytes": 32130
+        },
+        {
+          "name": "DAY TRADING INSANITY!!!.srt",
+          "size_bytes": 59689,
+          "compressed_bytes": 20476
+        },
+        {
+          "name": "Renaissance Technologies - Trading Strategies Revealed  A Documentary.docx",
+          "size_bytes": 13574,
+          "compressed_bytes": 12411
+        },
+        {
+          "name": "How to Invest for Beginners in 2025.pdf",
+          "size_bytes": 63539,
+          "compressed_bytes": 55370
+        },
+        {
+          "name": "Investing for Beginners - How I Make Millions from Stocks (Full Guide).docx",
+          "size_bytes": 12865,
+          "compressed_bytes": 11697
+        },
+        {
+          "name": "Investing For Beginners - How I Make $17K per Week from Stocks.srt",
+          "size_bytes": 36048,
+          "compressed_bytes": 13255
+        },
+        {
+          "name": "Renaissance Technologies - Trading Strategies Revealed  A Documentary.txt",
+          "size_bytes": 14592,
+          "compressed_bytes": 6078
+        },
+        {
+          "name": "Every Trading Strategy Explained in 12 Minutes (2).srt",
+          "size_bytes": 22789,
+          "compressed_bytes": 7884
+        },
+        {
+          "name": "The Right Way To Buy Options - Long Vertical Spread.pdf",
+          "size_bytes": 26117,
+          "compressed_bytes": 22624
+        },
+        {
+          "name": "Renaissance Technologies - Trading Strategies Revealed  A Documentary.srt",
+          "size_bytes": 27755,
+          "compressed_bytes": 10474
+        },
+        {
+          "name": "Trading with $10 to Prove it's Not Luck....docx",
+          "size_bytes": 13716,
+          "compressed_bytes": 12552
+        },
+        {
+          "name": "ULTIMATE Scalping Course (For Beginner to Advanced Traders).pdf",
+          "size_bytes": 60459,
+          "compressed_bytes": 52893
+        },
+        {
+          "name": "TOP 4 Trading Strategies to Make $500Day For Beginners.srt",
+          "size_bytes": 26816,
+          "compressed_bytes": 9144
+        },
+        {
+          "name": "Iron Condor Options Trading Strategy - Best Explanation.txt",
+          "size_bytes": 11724,
+          "compressed_bytes": 4255
+        },
+        {
+          "name": "Warren Buffett 10 Mistakes Every Investor Makes.txt",
+          "size_bytes": 19036,
+          "compressed_bytes": 7524
+        },
+        {
+          "name": "Options Trading For Beginners  Step By Step.txt",
+          "size_bytes": 26048,
+          "compressed_bytes": 9382
+        },
+        {
+          "name": "What Makes a Really Good TradingView Strategy Max Drawdown, Profit Factor, Win Rate, ....srt",
+          "size_bytes": 43166,
+          "compressed_bytes": 14331
+        },
+        {
+          "name": "The $25B Day Trader that Even Warren Buffett Acknowledges.srt",
+          "size_bytes": 33975,
+          "compressed_bytes": 12916
+        },
+        {
+          "name": "Hot Stocks Under $10 - For Huge Growth!.txt",
+          "size_bytes": 11439,
+          "compressed_bytes": 4916
+        },
+        {
+          "name": "How To Make $5000month with Only $25week.pdf",
+          "size_bytes": 33187,
+          "compressed_bytes": 28795
+        },
+        {
+          "name": "How People Get Rich With Options Trading (Math Shown).docx",
+          "size_bytes": 9122,
+          "compressed_bytes": 7943
+        },
+        {
+          "name": "Paper Trading on TradingView Tutorial.txt",
+          "size_bytes": 25595,
+          "compressed_bytes": 8812
+        },
+        {
+          "name": "HODL and DCA are Bad Strategies For Crypto Assets - Here is Why!.pdf",
+          "size_bytes": 48070,
+          "compressed_bytes": 41342
+        },
+        {
+          "name": "Best Crypto Scalping Strategy for the 5 Minute Time Frame.srt",
+          "size_bytes": 30281,
+          "compressed_bytes": 9901
+        },
+        {
+          "name": "Passive Income How I Started Dropshipping From Scratch (STEP BY STEP).srt",
+          "size_bytes": 38994,
+          "compressed_bytes": 14377
+        },
+        {
+          "name": "Algorithmic Trading Using Python - Full Course.docx",
+          "size_bytes": 94067,
+          "compressed_bytes": 93048
+        },
+        {
+          "name": "Jim Simons How To Achieve a 66% Return Per Year (7 Strategies).srt",
+          "size_bytes": 26457,
+          "compressed_bytes": 9898
+        },
+        {
+          "name": "I Decoded The Liquidity & Manipulation Algorithm In Day Trading.pdf",
+          "size_bytes": 36391,
+          "compressed_bytes": 31541
+        },
+        {
+          "name": "Algorithmic Trading Using Python - Full Course.pdf",
+          "size_bytes": 466574,
+          "compressed_bytes": 419104
+        },
+        {
+          "name": "HODL and DCA are Bad Strategies For Crypto Assets - Here is Why!.srt",
+          "size_bytes": 34439,
+          "compressed_bytes": 11409
+        },
+        {
+          "name": "TOP 4 Trading Strategies to Make $500Day For Beginners.txt",
+          "size_bytes": 13891,
+          "compressed_bytes": 4850
+        },
+        {
+          "name": "How to Double Your Money Using The Rule of 72.srt",
+          "size_bytes": 16440,
+          "compressed_bytes": 6067
+        },
+        {
+          "name": "Renaissance Technologies - Trading Strategies Revealed  A Documentary.pdf",
+          "size_bytes": 42551,
+          "compressed_bytes": 37215
+        },
+        {
+          "name": "HOW YOU CAN BE A GREAT DAY TRADER!.pdf",
+          "size_bytes": 25528,
+          "compressed_bytes": 21612
+        },
+        {
+          "name": "What Makes a Really Good TradingView Strategy Max Drawdown, Profit Factor, Win Rate, ....docx",
+          "size_bytes": 14813,
+          "compressed_bytes": 13650
+        },
+        {
+          "name": "Investing for Beginners - How I Make Millions from Stocks (Full Guide).pdf",
+          "size_bytes": 40757,
+          "compressed_bytes": 35394
+        },
+        {
+          "name": "BEST Moving Average Strategy for Daytrading Forex (Easy Crossover Strategy).docx",
+          "size_bytes": 9583,
+          "compressed_bytes": 8409
+        },
+        {
+          "name": "How To Make $5000month with Only $25week.srt",
+          "size_bytes": 19231,
+          "compressed_bytes": 6991
+        },
+        {
+          "name": "It\u0393\u00c7\u00d6s Over for the Stock Market Trump\u0393\u00c7\u00d6s \u0393\u00c7\u00ffPlanned\u0393\u00c7\u00d6 Crash Explained.srt",
+          "size_bytes": 26013,
+          "compressed_bytes": 9993
+        },
+        {
+          "name": "It\u0393\u00c7\u00d6s Over for the Stock Market Trump\u0393\u00c7\u00d6s \u0393\u00c7\u00ffPlanned\u0393\u00c7\u00d6 Crash Explained.docx",
+          "size_bytes": 13320,
+          "compressed_bytes": 12151
+        },
+        {
+          "name": "You'll Fail With Options Trading Until You Understand This ONE Thing.docx",
+          "size_bytes": 14338,
+          "compressed_bytes": 13172
+        },
+        {
+          "name": "Small Account Options Income Strategy (Easy).docx",
+          "size_bytes": 12927,
+          "compressed_bytes": 11758
+        },
+        {
+          "name": "BEST Moving Average Strategy for Daytrading Forex (Easy Crossover Strategy).srt",
+          "size_bytes": 15415,
+          "compressed_bytes": 4985
+        },
+        {
+          "name": "COMPLETE Supply & Demand Trading Course.docx",
+          "size_bytes": 12474,
+          "compressed_bytes": 11302
+        },
+        {
+          "name": "Options Trading For Beginners  Step By Step.srt",
+          "size_bytes": 50953,
+          "compressed_bytes": 17329
+        },
+        {
+          "name": "Trading with $10 to Prove it's Not Luck....pdf",
+          "size_bytes": 45162,
+          "compressed_bytes": 39834
+        },
+        {
+          "name": "Hot Stocks Under $10 - For Huge Growth!.docx",
+          "size_bytes": 12090,
+          "compressed_bytes": 10919
+        },
+        {
+          "name": "How Short Selling Works.txt",
+          "size_bytes": 10574,
+          "compressed_bytes": 4254
+        },
+        {
+          "name": "HODL and DCA are Bad Strategies For Crypto Assets - Here is Why!.docx",
+          "size_bytes": 13879,
+          "compressed_bytes": 12704
+        },
+        {
+          "name": "Hot Stocks Under $10 - For Huge Growth!.srt",
+          "size_bytes": 21110,
+          "compressed_bytes": 8236
+        },
+        {
+          "name": "0DTE Inside the Explosion of Ultra-Risky Options Trading  WSJ.pdf",
+          "size_bytes": 25910,
+          "compressed_bytes": 22341
+        },
+        {
+          "name": "Warren Buffett 10 Mistakes Every Investor Makes.docx",
+          "size_bytes": 15221,
+          "compressed_bytes": 14044
+        },
+        {
+          "name": "Small Account Options Income Strategy (Easy).pdf",
+          "size_bytes": 41473,
+          "compressed_bytes": 36639
+        },
+        {
+          "name": "COMPLETE Supply & Demand Trading Course.txt",
+          "size_bytes": 16789,
+          "compressed_bytes": 5103
+        },
+        {
+          "name": "The Vertical Spread Options Strategies (The ULTIMATE In-Depth Guide).docx",
+          "size_bytes": 25793,
+          "compressed_bytes": 24647
+        },
+        {
+          "name": "The Right Way To Buy Options - Long Vertical Spread.txt",
+          "size_bytes": 6756,
+          "compressed_bytes": 2559
+        },
+        {
+          "name": "Options Trading For Beginners  Step By Step.pdf",
+          "size_bytes": 64825,
+          "compressed_bytes": 56408
+        },
+        {
+          "name": "SPX Gamma Trading Risk $30 to Make $800 (The Strategy Explained!).srt",
+          "size_bytes": 22709,
+          "compressed_bytes": 7861
+        },
+        {
+          "name": "HOW YOU CAN BE A GREAT DAY TRADER!.txt",
+          "size_bytes": 5804,
+          "compressed_bytes": 2522
+        },
+        {
+          "name": "Bill Poulos Presents Call Options & Put Options Explained In 8 Minutes (Options For Beginners).srt",
+          "size_bytes": 13960,
+          "compressed_bytes": 4850
+        },
+        {
+          "name": "$10 to $11825.40 in 1 hour!  Fractal + SMA Crossover Strategy.srt",
+          "size_bytes": 17774,
+          "compressed_bytes": 6544
+        },
+        {
+          "name": "Passive Income How I Started Dropshipping From Scratch (STEP BY STEP).docx",
+          "size_bytes": 16398,
+          "compressed_bytes": 15230
+        },
+        {
+          "name": "Investing for Beginners - How I Make Millions from Stocks (Full Guide).srt",
+          "size_bytes": 23293,
+          "compressed_bytes": 8931
+        },
+        {
+          "name": "Bill Poulos Presents Call Options & Put Options Explained In 8 Minutes (Options For Beginners).pdf",
+          "size_bytes": 28446,
+          "compressed_bytes": 24496
+        },
+        {
+          "name": "The $25B Day Trader that Even Warren Buffett Acknowledges.pdf",
+          "size_bytes": 48994,
+          "compressed_bytes": 44107
+        },
+        {
+          "name": "The Vertical Spread Options Strategies (The ULTIMATE In-Depth Guide).txt",
+          "size_bytes": 66622,
+          "compressed_bytes": 17421
+        },
+        {
+          "name": "3 Bitcoin STRATEGIES You NEED to Know (FREE).srt",
+          "size_bytes": 33497,
+          "compressed_bytes": 11287
+        },
+        {
+          "name": "Best Crypto Scalping Strategy for the 5 Minute Time Frame.txt",
+          "size_bytes": 15702,
+          "compressed_bytes": 5273
+        },
+        {
+          "name": "It\u0393\u00c7\u00d6s Over for the Stock Market Trump\u0393\u00c7\u00d6s \u0393\u00c7\u00ffPlanned\u0393\u00c7\u00d6 Crash Explained.pdf",
+          "size_bytes": 40763,
+          "compressed_bytes": 35877
+        },
+        {
+          "name": "8 Dividend Stocks That Pay Me $660+ Per Month.docx",
+          "size_bytes": 13561,
+          "compressed_bytes": 12395
+        },
+        {
+          "name": "Iron Condor Options Trading Strategy - Best Explanation.pdf",
+          "size_bytes": 36405,
+          "compressed_bytes": 31595
+        },
+        {
+          "name": "TOP 4 Trading Strategies to Make $500Day For Beginners.docx",
+          "size_bytes": 12165,
+          "compressed_bytes": 10998
+        },
+        {
+          "name": "Warren Buffett The FASTEST Way To Living Off Dividends! ($4400month).srt",
+          "size_bytes": 31542,
+          "compressed_bytes": 11112
+        },
+        {
+          "name": "15 Best Price Action Strategies After 15 Years of Trading (The Holy Grail).srt",
+          "size_bytes": 55561,
+          "compressed_bytes": 16610
+        },
+        {
+          "name": "COMPLETE Supply & Demand Trading Course.pdf",
+          "size_bytes": 42929,
+          "compressed_bytes": 37625
+        },
+        {
+          "name": "Algorithmic Trading Using Python - Full Course.txt",
+          "size_bytes": 263546,
+          "compressed_bytes": 74626
+        },
+        {
+          "name": "The Right Way To Buy Options - Long Vertical Spread.docx",
+          "size_bytes": 9598,
+          "compressed_bytes": 8418
+        },
+        {
+          "name": "How to Invest for Beginners in 2025.docx",
+          "size_bytes": 16507,
+          "compressed_bytes": 15341
+        },
+        {
+          "name": "How Short Selling Works.docx",
+          "size_bytes": 11466,
+          "compressed_bytes": 10295
+        },
+        {
+          "name": "15 Best Price Action Strategies After 15 Years of Trading (The Holy Grail).docx",
+          "size_bytes": 15625,
+          "compressed_bytes": 14457
+        },
+        {
+          "name": "Jim Simons How To Achieve a 66% Return Per Year (7 Strategies).docx",
+          "size_bytes": 13329,
+          "compressed_bytes": 12161
+        },
+        {
+          "name": "15 Best Price Action Strategies After 15 Years of Trading (The Holy Grail).pdf",
+          "size_bytes": 64497,
+          "compressed_bytes": 56935
+        },
+        {
+          "name": "HOW YOU CAN BE A GREAT DAY TRADER!.docx",
+          "size_bytes": 9669,
+          "compressed_bytes": 8492
+        },
+        {
+          "name": "3 Proven Swing Trading Strategies (That Work).docx",
+          "size_bytes": 11862,
+          "compressed_bytes": 10690
+        },
+        {
+          "name": "TOP 4 Trading Strategies to Make $500Day For Beginners (2).docx",
+          "size_bytes": 12168,
+          "compressed_bytes": 10998
+        },
+        {
+          "name": "Investing For Beginners - How I Make $17K per Week from Stocks.pdf",
+          "size_bytes": 48905,
+          "compressed_bytes": 43484
+        },
+        {
+          "name": "$1 to $34,009.26  Parabolic SAR+CCI Binary Options Trading.pdf",
+          "size_bytes": 35762,
+          "compressed_bytes": 30852
+        },
+        {
+          "name": "How To Make $5000month with Only $25week.docx",
+          "size_bytes": 11162,
+          "compressed_bytes": 9992
+        },
+        {
+          "name": "Investing For Beginners - How I Make $17K per Week from Stocks.docx",
+          "size_bytes": 14939,
+          "compressed_bytes": 13775
+        },
+        {
+          "name": "Passive Income How I Started Dropshipping From Scratch (STEP BY STEP).txt",
+          "size_bytes": 20780,
+          "compressed_bytes": 8440
+        },
+        {
+          "name": "How Short Selling Works.pdf",
+          "size_bytes": 32810,
+          "compressed_bytes": 28478
+        },
+        {
+          "name": "I Decoded The Liquidity & Manipulation Algorithm In Day Trading.docx",
+          "size_bytes": 11910,
+          "compressed_bytes": 10735
+        },
+        {
+          "name": "I risk $107 to make $7,500 in Trading\u0393\u00c7\u00aa This is how.docx",
+          "size_bytes": 14572,
+          "compressed_bytes": 13409
+        },
+        {
+          "name": "Iron Condor Options Trading Strategy - Best Explanation.docx",
+          "size_bytes": 11566,
+          "compressed_bytes": 10392
+        },
+        {
+          "name": "8 Dividend Stocks That Pay Me $660+ Per Month.pdf",
+          "size_bytes": 44568,
+          "compressed_bytes": 39707
+        },
+        {
+          "name": "Bill Poulos Presents Call Options & Put Options Explained In 8 Minutes (Options For Beginners).docx",
+          "size_bytes": 9845,
+          "compressed_bytes": 8669
+        },
+        {
+          "name": "3 Proven Swing Trading Strategies (That Work).pdf",
+          "size_bytes": 38544,
+          "compressed_bytes": 33755
+        },
+        {
+          "name": "8 Dividend Stocks That Pay Me $660+ Per Month.srt",
+          "size_bytes": 30947,
+          "compressed_bytes": 11200
+        },
+        {
+          "name": "Trading with $10 to Prove it's Not Luck....txt",
+          "size_bytes": 18004,
+          "compressed_bytes": 6198
+        },
+        {
+          "name": "You'll Fail With Options Trading Until You Understand This ONE Thing.srt",
+          "size_bytes": 34831,
+          "compressed_bytes": 12162
+        },
+        {
+          "name": "How To Profit From A Trump Presidency In 2025.srt",
+          "size_bytes": 42561,
+          "compressed_bytes": 14337
+        },
+        {
+          "name": "Every Trading Strategy Explained in 12 Minutes.pdf",
+          "size_bytes": 36913,
+          "compressed_bytes": 32041
+        },
+        {
+          "name": "Profitable Forex Trader With NO BACKTESTING  #TraderTips.srt",
+          "size_bytes": 16334,
+          "compressed_bytes": 5960
+        },
+        {
+          "name": "15 Best Price Action Strategies After 15 Years of Trading (The Holy Grail).txt",
+          "size_bytes": 29716,
+          "compressed_bytes": 7811
+        },
+        {
+          "name": "Best Crypto Scalping Strategy for the 5 Minute Time Frame.pdf",
+          "size_bytes": 43791,
+          "compressed_bytes": 38003
+        },
+        {
+          "name": "How to Double Your Money Using The Rule of 72.txt",
+          "size_bytes": 8272,
+          "compressed_bytes": 3331
+        }
+      ],
+      "best_text_document_count": 48
+    },
+    {
+      "sha256": "de1718f2c52ba3c817d9db91e7dc6febc4c755bf32f4bf9d01d825b39bdaeb7e",
+      "sha256_prefix": "de1718f2c52b",
+      "export_id": "4076235464",
+      "copies": [
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:42"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_CLONE/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_FREEZE/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_DEV/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_PROD/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_CLONE/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_FREEZE/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_DEV/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_PROD/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_CLONE/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_COINBASE_CLEAN__legacy_cutover_20260418/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_FREEZE/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_DEV/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_PROD/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/DUAL_BOT_LEGACY/RBOTZILLA_COINBASE_CLEAN__legacy_cutover_20260418/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/cba_prod_current__1d0579d__d15f12e29ea9__20260425_053025/repo/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532,
+          "mtime_local": "2026-04-05 11:33:44"
+        }
+      ],
+      "canonical_path": "/home/rfing/READ_ONLY_LEGACY/TurboScribe Export 4076235464.zip",
+      "entry_count": 16,
+      "total_uncompressed_bytes": 698218,
+      "extension_counts": {
+        ".txt": 4,
+        ".srt": 0,
+        ".csv": 4,
+        ".pdf": 4,
+        ".docx": 4
+      },
+      "entries": [
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge.pdf",
+          "size_bytes": 96913,
+          "compressed_bytes": 84286
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge.docx",
+          "size_bytes": 25186,
+          "compressed_bytes": 24018
+        },
+        {
+          "name": "Scalping series #01 Rules for scalping.txt",
+          "size_bytes": 23919,
+          "compressed_bytes": 8152
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.pdf",
+          "size_bytes": 79782,
+          "compressed_bytes": 69911
+        },
+        {
+          "name": "Scalping series #01 Rules for scalping.pdf",
+          "size_bytes": 58828,
+          "compressed_bytes": 51282
+        },
+        {
+          "name": "How to Scalp Like an Elite Prop Trader (Inside Look).txt",
+          "size_bytes": 25821,
+          "compressed_bytes": 9554
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge.txt",
+          "size_bytes": 41225,
+          "compressed_bytes": 15326
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge.csv",
+          "size_bytes": 63644,
+          "compressed_bytes": 23536
+        },
+        {
+          "name": "Scalping series #01 Rules for scalping.csv",
+          "size_bytes": 36893,
+          "compressed_bytes": 13101
+        },
+        {
+          "name": "How to Scalp Like an Elite Prop Trader (Inside Look).pdf",
+          "size_bytes": 63627,
+          "compressed_bytes": 55678
+        },
+        {
+          "name": "How to Scalp Like an Elite Prop Trader (Inside Look).docx",
+          "size_bytes": 17798,
+          "compressed_bytes": 16633
+        },
+        {
+          "name": "Scalping series #01 Rules for scalping.docx",
+          "size_bytes": 16148,
+          "compressed_bytes": 14976
+        },
+        {
+          "name": "How to Scalp Like an Elite Prop Trader (Inside Look).csv",
+          "size_bytes": 40044,
+          "compressed_bytes": 14684
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.txt",
+          "size_bytes": 34407,
+          "compressed_bytes": 12049
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.docx",
+          "size_bytes": 20721,
+          "compressed_bytes": 19554
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.csv",
+          "size_bytes": 53262,
+          "compressed_bytes": 18978
+        }
+      ],
+      "best_text_document_count": 4
+    },
+    {
+      "sha256": "8ef5c56377ed374ab7ce98a170e972c7909f7d5711526a44fd0717a1f42a33a2",
+      "sha256_prefix": "8ef5c56377ed",
+      "export_id": "825774768",
+      "copies": [
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/TurboScribe Export 825774768.zip",
+          "size_bytes": 2546924,
+          "mtime_local": "2026-04-20 20:22:27"
+        }
+      ],
+      "canonical_path": "/home/rfing/READ_ONLY_LEGACY/TurboScribe Export 825774768.zip",
+      "entry_count": 72,
+      "total_uncompressed_bytes": 4152084,
+      "extension_counts": {
+        ".txt": 18,
+        ".srt": 0,
+        ".csv": 18,
+        ".pdf": 18,
+        ".docx": 18
+      },
+      "entries": [
+        {
+          "name": "How I Avoid False Breakouts (My Secret Technique).csv",
+          "size_bytes": 38384,
+          "compressed_bytes": 13683
+        },
+        {
+          "name": "How I Avoid False Breakouts (My Secret Technique).pdf",
+          "size_bytes": 52066,
+          "compressed_bytes": 45817
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge.pdf",
+          "size_bytes": 78276,
+          "compressed_bytes": 68878
+        },
+        {
+          "name": "SMB Quant (001) \u0393\u00c7\u00a3Modeling Process\u0393\u00c7\u00a5 with Jeff Holden from SMB Capital  KTG.csv",
+          "size_bytes": 68437,
+          "compressed_bytes": 24532
+        },
+        {
+          "name": "How I Avoid False Breakouts (My Secret Technique).docx",
+          "size_bytes": 15830,
+          "compressed_bytes": 14665
+        },
+        {
+          "name": "Trading LIVE with the #1 Scalper in the WORLD (EXTREME Accuracy).pdf",
+          "size_bytes": 319717,
+          "compressed_bytes": 282571
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge.docx",
+          "size_bytes": 22856,
+          "compressed_bytes": 21704
+        },
+        {
+          "name": "Moving Average Trading Tutorial (For Day Trading).docx",
+          "size_bytes": 21006,
+          "compressed_bytes": 19852
+        },
+        {
+          "name": "Real-World Edge w Jeff Holden SMB Capital Head of Trader Development  SPECULATORS PODCAST EP 48.csv",
+          "size_bytes": 85728,
+          "compressed_bytes": 29899
+        },
+        {
+          "name": "Trading LIVE with the #1 Scalper in the WORLD (EXTREME Accuracy).csv",
+          "size_bytes": 330735,
+          "compressed_bytes": 111692
+        },
+        {
+          "name": "Scalping series #01 Rules for scalping.txt",
+          "size_bytes": 22586,
+          "compressed_bytes": 7458
+        },
+        {
+          "name": "Order Blocks Explained Trade Like the Banks (No BS Guide).csv",
+          "size_bytes": 49449,
+          "compressed_bytes": 15945
+        },
+        {
+          "name": "Moving Average Trading Tutorial (For Day Trading).pdf",
+          "size_bytes": 72759,
+          "compressed_bytes": 65729
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.pdf",
+          "size_bytes": 66578,
+          "compressed_bytes": 59019
+        },
+        {
+          "name": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).csv",
+          "size_bytes": 23040,
+          "compressed_bytes": 7964
+        },
+        {
+          "name": "Scalping series #01 Rules for scalping.pdf",
+          "size_bytes": 50435,
+          "compressed_bytes": 44190
+        },
+        {
+          "name": "SMB Quant (001) \u0393\u00c7\u00a3Modeling Process\u0393\u00c7\u00a5 with Jeff Holden from SMB Capital  KTG.txt",
+          "size_bytes": 41725,
+          "compressed_bytes": 14539
+        },
+        {
+          "name": "Order Blocks Explained Trade Like the Banks (No BS Guide).pdf",
+          "size_bytes": 59583,
+          "compressed_bytes": 52486
+        },
+        {
+          "name": "ICT 2024 Mentorship  How To Trade ICT FVGs Correctly  September 16, 2024.txt",
+          "size_bytes": 105768,
+          "compressed_bytes": 34700
+        },
+        {
+          "name": "How to Scalp Like an Elite Prop Trader (Inside Look).txt",
+          "size_bytes": 24410,
+          "compressed_bytes": 8802
+        },
+        {
+          "name": "How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.csv",
+          "size_bytes": 79747,
+          "compressed_bytes": 27997
+        },
+        {
+          "name": "How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.docx",
+          "size_bytes": 25095,
+          "compressed_bytes": 23944
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026 (2).pdf",
+          "size_bytes": 66578,
+          "compressed_bytes": 59019
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge.txt",
+          "size_bytes": 38270,
+          "compressed_bytes": 13898
+        },
+        {
+          "name": "Real-World Edge w Jeff Holden SMB Capital Head of Trader Development  SPECULATORS PODCAST EP 48.docx",
+          "size_bytes": 26194,
+          "compressed_bytes": 25044
+        },
+        {
+          "name": "Moving Average Trading Tutorial (For Day Trading).txt",
+          "size_bytes": 38363,
+          "compressed_bytes": 13505
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge (2).docx",
+          "size_bytes": 22856,
+          "compressed_bytes": 21705
+        },
+        {
+          "name": "The Biggest Hidden Key In Trading.pdf",
+          "size_bytes": 59981,
+          "compressed_bytes": 52950
+        },
+        {
+          "name": "How I Avoid False Breakouts (My Secret Technique).txt",
+          "size_bytes": 24001,
+          "compressed_bytes": 8133
+        },
+        {
+          "name": "Order Blocks Explained Trade Like the Banks (No BS Guide).txt",
+          "size_bytes": 30325,
+          "compressed_bytes": 8724
+        },
+        {
+          "name": "The Only Orderflow Guide You'll Ever Need.pdf",
+          "size_bytes": 65791,
+          "compressed_bytes": 58319
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge.csv",
+          "size_bytes": 63644,
+          "compressed_bytes": 23536
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026 (2).docx",
+          "size_bytes": 19278,
+          "compressed_bytes": 18119
+        },
+        {
+          "name": "Scalping series #01 Rules for scalping.csv",
+          "size_bytes": 36893,
+          "compressed_bytes": 13101
+        },
+        {
+          "name": "ICT 2024 Mentorship  How To Trade ICT FVGs Correctly  September 16, 2024.pdf",
+          "size_bytes": 185416,
+          "compressed_bytes": 163573
+        },
+        {
+          "name": "Real-World Edge w Jeff Holden SMB Capital Head of Trader Development  SPECULATORS PODCAST EP 48.pdf",
+          "size_bytes": 98119,
+          "compressed_bytes": 88318
+        },
+        {
+          "name": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).pdf",
+          "size_bytes": 38906,
+          "compressed_bytes": 33882
+        },
+        {
+          "name": "Smart Money Concepts How I Combine Liquidity Sweeps, FVGs & Order Blocks (Full Strategy).txt",
+          "size_bytes": 12298,
+          "compressed_bytes": 4083
+        },
+        {
+          "name": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).txt",
+          "size_bytes": 14720,
+          "compressed_bytes": 4631
+        },
+        {
+          "name": "How to Scalp Like an Elite Prop Trader (Inside Look).pdf",
+          "size_bytes": 54112,
+          "compressed_bytes": 47416
+        },
+        {
+          "name": "ICT 2024 Mentorship  How To Trade ICT FVGs Correctly  September 16, 2024.csv",
+          "size_bytes": 182039,
+          "compressed_bytes": 62983
+        },
+        {
+          "name": "How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.pdf",
+          "size_bytes": 90997,
+          "compressed_bytes": 81710
+        },
+        {
+          "name": "Order Blocks Explained Trade Like the Banks (No BS Guide).docx",
+          "size_bytes": 16524,
+          "compressed_bytes": 15360
+        },
+        {
+          "name": "ICT 2024 Mentorship  How To Trade ICT FVGs Correctly  September 16, 2024.docx",
+          "size_bytes": 48400,
+          "compressed_bytes": 47350
+        },
+        {
+          "name": "The Only Orderflow Guide You'll Ever Need.docx",
+          "size_bytes": 18119,
+          "compressed_bytes": 16963
+        },
+        {
+          "name": "How to Scalp Like an Elite Prop Trader (Inside Look).docx",
+          "size_bytes": 16628,
+          "compressed_bytes": 15471
+        },
+        {
+          "name": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).docx",
+          "size_bytes": 11951,
+          "compressed_bytes": 10776
+        },
+        {
+          "name": "Smart Money Concepts How I Combine Liquidity Sweeps, FVGs & Order Blocks (Full Strategy).csv",
+          "size_bytes": 18931,
+          "compressed_bytes": 6809
+        },
+        {
+          "name": "Real-World Edge w Jeff Holden SMB Capital Head of Trader Development  SPECULATORS PODCAST EP 48.txt",
+          "size_bytes": 53936,
+          "compressed_bytes": 17999
+        },
+        {
+          "name": "The Only Orderflow Guide You'll Ever Need.csv",
+          "size_bytes": 56012,
+          "compressed_bytes": 18176
+        },
+        {
+          "name": "SMB Quant (001) \u0393\u00c7\u00a3Modeling Process\u0393\u00c7\u00a5 with Jeff Holden from SMB Capital  KTG.docx",
+          "size_bytes": 23052,
+          "compressed_bytes": 21893
+        },
+        {
+          "name": "The Biggest Hidden Key In Trading.csv",
+          "size_bytes": 47966,
+          "compressed_bytes": 16763
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge (2).txt",
+          "size_bytes": 38270,
+          "compressed_bytes": 13898
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge (2).csv",
+          "size_bytes": 63644,
+          "compressed_bytes": 23536
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026 (2).txt",
+          "size_bytes": 32638,
+          "compressed_bytes": 11129
+        },
+        {
+          "name": "Trading LIVE with the #1 Scalper in the WORLD (EXTREME Accuracy).txt",
+          "size_bytes": 189158,
+          "compressed_bytes": 60073
+        },
+        {
+          "name": "How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.txt",
+          "size_bytes": 50442,
+          "compressed_bytes": 16880
+        },
+        {
+          "name": "The Biggest Hidden Key In Trading.docx",
+          "size_bytes": 17673,
+          "compressed_bytes": 16518
+        },
+        {
+          "name": "Moving Average Trading Tutorial (For Day Trading).csv",
+          "size_bytes": 60424,
+          "compressed_bytes": 21662
+        },
+        {
+          "name": "How to use Claude To Gain a Huge Day Trading Edge (2).pdf",
+          "size_bytes": 78276,
+          "compressed_bytes": 68878
+        },
+        {
+          "name": "Scalping series #01 Rules for scalping.docx",
+          "size_bytes": 15094,
+          "compressed_bytes": 13932
+        },
+        {
+          "name": "How to Scalp Like an Elite Prop Trader (Inside Look).csv",
+          "size_bytes": 40044,
+          "compressed_bytes": 14684
+        },
+        {
+          "name": "Trading LIVE with the #1 Scalper in the WORLD (EXTREME Accuracy).docx",
+          "size_bytes": 79557,
+          "compressed_bytes": 78527
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026 (2).csv",
+          "size_bytes": 53262,
+          "compressed_bytes": 18978
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.txt",
+          "size_bytes": 32638,
+          "compressed_bytes": 11129
+        },
+        {
+          "name": "Smart Money Concepts How I Combine Liquidity Sweeps, FVGs & Order Blocks (Full Strategy).pdf",
+          "size_bytes": 35387,
+          "compressed_bytes": 30831
+        },
+        {
+          "name": "Smart Money Concepts How I Combine Liquidity Sweeps, FVGs & Order Blocks (Full Strategy).docx",
+          "size_bytes": 11350,
+          "compressed_bytes": 10179
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.docx",
+          "size_bytes": 19278,
+          "compressed_bytes": 18121
+        },
+        {
+          "name": "SMB Quant (001) \u0393\u00c7\u00a3Modeling Process\u0393\u00c7\u00a5 with Jeff Holden from SMB Capital  KTG.pdf",
+          "size_bytes": 82675,
+          "compressed_bytes": 73741
+        },
+        {
+          "name": "The Biggest Hidden Key In Trading.txt",
+          "size_bytes": 29234,
+          "compressed_bytes": 9744
+        },
+        {
+          "name": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.csv",
+          "size_bytes": 53262,
+          "compressed_bytes": 18978
+        },
+        {
+          "name": "The Only Orderflow Guide You'll Ever Need.txt",
+          "size_bytes": 35268,
+          "compressed_bytes": 10453
+        }
+      ],
+      "best_text_document_count": 16
+    },
+    {
+      "sha256": "9949bd8af7b389c00dbc68567e50eb6aa896b9ae1ce3156570068a910981c8bf",
+      "sha256_prefix": "9949bd8af7b3",
+      "export_id": "959515257",
+      "copies": [
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 959515257.zip",
+          "size_bytes": 325164,
+          "mtime_local": "2026-03-27 22:56:01"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+          "size_bytes": 325164,
+          "mtime_local": "2026-03-27 22:56:01"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 959515257.zip",
+          "size_bytes": 325164,
+          "mtime_local": "2026-03-27 22:56:01"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+          "size_bytes": 325164,
+          "mtime_local": "2026-03-27 22:56:01"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 959515257.zip",
+          "size_bytes": 325164,
+          "mtime_local": "2026-03-27 22:56:01"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+          "size_bytes": 325164,
+          "mtime_local": "2026-03-27 22:56:01"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 959515257.zip",
+          "size_bytes": 325164,
+          "mtime_local": "2026-03-27 22:56:01"
+        },
+        {
+          "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+          "size_bytes": 325164,
+          "mtime_local": "2026-03-27 22:56:01"
+        }
+      ],
+      "canonical_path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 959515257.zip",
+      "entry_count": 12,
+      "total_uncompressed_bytes": 506358,
+      "extension_counts": {
+        ".txt": 3,
+        ".srt": 0,
+        ".csv": 3,
+        ".pdf": 3,
+        ".docx": 3
+      },
+      "entries": [
+        {
+          "name": "I Just Made $120,000 in 48h With This Forex Trade.pdf",
+          "size_bytes": 45252,
+          "compressed_bytes": 39938
+        },
+        {
+          "name": "Day Trader Turned $3K into $1.67Million in 2 Years.csv",
+          "size_bytes": 69199,
+          "compressed_bytes": 24917
+        },
+        {
+          "name": "I Just Made $120,000 in 48h With This Forex Trade.txt",
+          "size_bytes": 18074,
+          "compressed_bytes": 5977
+        },
+        {
+          "name": "Day Trader Turned $3K into $1.67Million in 2 Years.pdf",
+          "size_bytes": 100951,
+          "compressed_bytes": 88358
+        },
+        {
+          "name": "The Best Top Down Analysis Strategy for 2025  Forex Trading Guide.txt",
+          "size_bytes": 29700,
+          "compressed_bytes": 9124
+        },
+        {
+          "name": "The Best Top Down Analysis Strategy for 2025  Forex Trading Guide.docx",
+          "size_bytes": 17230,
+          "compressed_bytes": 16059
+        },
+        {
+          "name": "I Just Made $120,000 in 48h With This Forex Trade.csv",
+          "size_bytes": 28701,
+          "compressed_bytes": 10062
+        },
+        {
+          "name": "Day Trader Turned $3K into $1.67Million in 2 Years.txt",
+          "size_bytes": 43619,
+          "compressed_bytes": 15840
+        },
+        {
+          "name": "The Best Top Down Analysis Strategy for 2025  Forex Trading Guide.pdf",
+          "size_bytes": 68643,
+          "compressed_bytes": 60156
+        },
+        {
+          "name": "The Best Top Down Analysis Strategy for 2025  Forex Trading Guide.csv",
+          "size_bytes": 45956,
+          "compressed_bytes": 15058
+        },
+        {
+          "name": "Day Trader Turned $3K into $1.67Million in 2 Years.docx",
+          "size_bytes": 25594,
+          "compressed_bytes": 24427
+        },
+        {
+          "name": "I Just Made $120,000 in 48h With This Forex Trade.docx",
+          "size_bytes": 13439,
+          "compressed_bytes": 12276
+        }
+      ],
+      "best_text_document_count": 3
+    }
+  ],
+  "non_zip_matches": [
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_PHOENIX/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+      "size_bytes": 168628,
+      "mtime_local": "2026-03-01 17:30:48"
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_PHOENIX/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+      "size_bytes": 49854,
+      "mtime_local": "2026-03-01 17:30:48"
+    },
+    {
+      "path": "/home/rfing/ODA_TRABOT/docs/TURBOSCRIBE_NORMALIZED_EDGE_REFERENCE.md",
+      "size_bytes": 15965,
+      "mtime_local": "2026-06-05 04:43:55"
+    }
+  ]
+}

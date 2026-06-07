@@ -1,0 +1,357 @@
+{
+  "pack_id": "turboscribe_phase1",
+  "label": "TurboScribe Phase 1 strategy cartridge",
+  "metadata": {
+    "mode": "practice_only",
+    "source_artifacts": [
+      "analysis/turboscribe/strategy_specs.json",
+      "analysis/turboscribe/bot_conversion_matrix.md"
+    ],
+    "source_policy": "Only TurboScribe-named local archives/docs were used for this strategy conversion.",
+    "active_conversion": [
+      "top_down_bias_gate as top_down_bias_score",
+      "ema_9_continuation_scalp as ema_9_reclaim_score plus first_touch_quality",
+      "range_bounce_breakout_classifier as range_width_score/chop_penalty guards",
+      "false_breakout_filter as failed_break_risk plus post_break_acceptance_score"
+    ],
+    "phase2_disabled_until_feature_layer_exists": [
+      "order_block_retest",
+      "liquidity_sweep_fvg_midpoint",
+      "simple_5m_session_scalp",
+      "orderflow_value_area_confirmation"
+    ],
+    "safety": [
+      "OANDA practice only",
+      "top-down remains an M15-derived proxy until multi-timeframe candles are fetched",
+      "do not enable live money from transcript rules alone"
+    ]
+  },
+  "workflow_priority": {
+    "continuation": 5.0,
+    "second_chance": 3.5,
+    "scalp": 3.0,
+    "fashionably_late": 1.0
+  },
+  "position_sizing": [
+    {
+      "min_confidence": 0.92,
+      "min_votes": 4,
+      "units_multiplier": 0.9
+    },
+    {
+      "min_confidence": 0.86,
+      "min_votes": 3,
+      "units_multiplier": 0.75
+    },
+    {
+      "min_confidence": 0.0,
+      "min_votes": 0,
+      "units_multiplier": 0.5
+    }
+  ],
+  "exit_profiles": {
+    "default": {
+      "profile_name": "turboscribe_2r_plus",
+      "stop_pips": 10.0,
+      "target_pips": 25.2,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 15.0
+    },
+    "turboscribe_2r_plus": {
+      "profile_name": "turboscribe_2r_plus",
+      "stop_pips": 10.0,
+      "target_pips": 25.2,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 15.0
+    },
+    "turboscribe_scalp_2r": {
+      "profile_name": "turboscribe_scalp_2r",
+      "stop_pips": 10.0,
+      "target_pips": 20.0,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 12.0
+    },
+    "clip_75pct_tp": {
+      "profile_name": "clip_75pct_tp",
+      "stop_pips": 10.0,
+      "target_pips": 25.2,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 15.0
+    },
+    "wick_scratch_3bar": {
+      "profile_name": "wick_scratch_3bar",
+      "stop_pips": 10.0,
+      "target_pips": 12.6,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 15.0
+    }
+  },
+  "workflow_exit_profiles": {
+    "*": "turboscribe_2r_plus",
+    "scalp": "turboscribe_scalp_2r"
+  },
+  "workflows": {
+    "continuation": {
+      "min_votes": 3,
+      "min_confidence": 0.68,
+      "checks": [
+        {
+          "label": "top-down bias proxy aligned",
+          "field": "top_down_bias_score",
+          "operator": "gte",
+          "value": 0.62
+        },
+        {
+          "label": "9 EMA reclaim is stable",
+          "field": "ema_9_reclaim_score",
+          "operator": "gte",
+          "value": 0.55
+        },
+        {
+          "label": "first-touch quality is not worn out",
+          "field": "first_touch_quality",
+          "operator": "gte",
+          "value": 0.4
+        },
+        {
+          "label": "momentum continuation healthy",
+          "field": "momentum_score",
+          "operator": "gte",
+          "value": 0.68
+        },
+        {
+          "label": "breakout accepted, not obvious false-break",
+          "field": "post_break_acceptance_score",
+          "operator": "gte",
+          "value": 0.55
+        },
+        {
+          "label": "failed-break risk is controlled",
+          "field": "failed_break_risk",
+          "operator": "lte",
+          "value": 0.45
+        }
+      ],
+      "confidence_terms": [
+        {
+          "field": "top_down_bias_score",
+          "weight": 0.25
+        },
+        {
+          "field": "momentum_score",
+          "weight": 0.2
+        },
+        {
+          "field": "ema_9_reclaim_score",
+          "weight": 0.2
+        },
+        {
+          "field": "first_touch_quality",
+          "weight": 0.15
+        },
+        {
+          "field": "post_break_acceptance_score",
+          "weight": 0.15
+        },
+        {
+          "field": "failed_break_risk",
+          "operator": "lte",
+          "value": 0.45,
+          "weight": 0.05
+        }
+      ]
+    },
+    "second_chance": {
+      "min_votes": 3,
+      "min_confidence": 0.66,
+      "checks": [
+        {
+          "label": "top-down bias still intact",
+          "field": "top_down_bias_score",
+          "operator": "gte",
+          "value": 0.58
+        },
+        {
+          "label": "first pullback/retest area is holding",
+          "field": "ema_9_reclaim_score",
+          "operator": "gte",
+          "value": 0.62
+        },
+        {
+          "label": "momentum has recovered after pullback",
+          "field": "momentum_score",
+          "operator": "gte",
+          "value": 0.62
+        },
+        {
+          "label": "range break memory remains valid",
+          "field": "post_break_acceptance_score",
+          "operator": "gte",
+          "value": 0.52
+        },
+        {
+          "label": "late-touch penalty is still acceptable",
+          "field": "late_touch_penalty",
+          "operator": "lte",
+          "value": 0.7
+        }
+      ],
+      "confidence_terms": [
+        {
+          "field": "top_down_bias_score",
+          "weight": 0.25
+        },
+        {
+          "field": "ema_9_reclaim_score",
+          "weight": 0.25
+        },
+        {
+          "field": "momentum_score",
+          "weight": 0.2
+        },
+        {
+          "field": "post_break_acceptance_score",
+          "weight": 0.2
+        },
+        {
+          "field": "late_touch_penalty",
+          "operator": "lte",
+          "value": 0.7,
+          "weight": 0.1
+        }
+      ]
+    },
+    "fashionably_late": {
+      "min_votes": 4,
+      "min_confidence": 0.72,
+      "checks": [
+        {
+          "label": "late entry still has top-down trend",
+          "field": "top_down_bias_score",
+          "operator": "gte",
+          "value": 0.68
+        },
+        {
+          "label": "late entry reclaim is unusually clean",
+          "field": "ema_9_reclaim_score",
+          "operator": "gte",
+          "value": 0.68
+        },
+        {
+          "label": "late entry momentum is still alive",
+          "field": "momentum_score",
+          "operator": "gte",
+          "value": 0.62
+        },
+        {
+          "label": "breakout has not become exhausted",
+          "field": "post_break_acceptance_score",
+          "operator": "gte",
+          "value": 0.55
+        },
+        {
+          "label": "late-touch penalty is low",
+          "field": "late_touch_penalty",
+          "operator": "lte",
+          "value": 0.35
+        }
+      ],
+      "confidence_terms": [
+        {
+          "field": "top_down_bias_score",
+          "weight": 0.25
+        },
+        {
+          "field": "ema_9_reclaim_score",
+          "weight": 0.25
+        },
+        {
+          "field": "momentum_score",
+          "weight": 0.18
+        },
+        {
+          "field": "post_break_acceptance_score",
+          "weight": 0.17
+        },
+        {
+          "field": "late_touch_penalty",
+          "operator": "lte",
+          "value": 0.35,
+          "weight": 0.15
+        }
+      ]
+    },
+    "scalp": {
+      "min_votes": 3,
+      "min_confidence": 0.68,
+      "checks": [
+        {
+          "label": "9 EMA reclaim is live",
+          "field": "ema_9_reclaim_score",
+          "operator": "gte",
+          "value": 0.62
+        },
+        {
+          "label": "first-touch quality supports scalp",
+          "field": "first_touch_quality",
+          "operator": "gte",
+          "value": 0.48
+        },
+        {
+          "label": "micro momentum confirms continuation",
+          "field": "momentum_score",
+          "operator": "gte",
+          "value": 0.72
+        },
+        {
+          "label": "spread is tight enough for scalp",
+          "field": "spread_pips",
+          "operator": "lte",
+          "value": 1.6
+        },
+        {
+          "label": "volatility can pay at least 2R",
+          "field": "two_r_available",
+          "operator": "gte",
+          "value": 0.45
+        },
+        {
+          "label": "failed-break risk is low",
+          "field": "failed_break_risk",
+          "operator": "lte",
+          "value": 0.4
+        }
+      ],
+      "confidence_terms": [
+        {
+          "field": "ema_9_reclaim_score",
+          "weight": 0.25
+        },
+        {
+          "field": "first_touch_quality",
+          "weight": 0.2
+        },
+        {
+          "field": "momentum_score",
+          "weight": 0.2
+        },
+        {
+          "field": "spread_pips",
+          "operator": "lte",
+          "value": 1.6,
+          "weight": 0.15
+        },
+        {
+          "field": "two_r_available",
+          "weight": 0.15
+        },
+        {
+          "field": "failed_break_risk",
+          "operator": "lte",
+          "value": 0.4,
+          "weight": 0.05
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "wsl_home_zip_manifest_scan": {
+    "zip_files_scanned": 374,
+    "turboscribe_related_hits": 78,
+    "direct_turboscribe_named_zip_hits": 73,
+    "generic_zip_with_turboscribe_entries": 5,
+    "generic_zip_paths": [
+      "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_PHOENIX_backup_20260319_235324.zip",
+      "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_PHOENIX_backup_20260320_004751.zip",
+      "/home/rfing/READ_ONLY_LEGACY/PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635.zip",
+      "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/OAD_PROD/coinbase_clean_rbotz.zip",
+      "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_PHOENIX/backups/rbotzilla_pheonix_v3.14.2026_1248.zip"
+    ],
+    "result_file": "/home/rfing/ODA_TRABOT/analysis/turboscribe/zip_manifest_turboscribe_hits_wsl_home.json"
+  }
+}

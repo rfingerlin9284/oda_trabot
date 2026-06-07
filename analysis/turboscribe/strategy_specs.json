@@ -1,0 +1,476 @@
+{
+  "generated_at_utc": "2026-06-05T17:41:17.693162+00:00",
+  "scope": {
+    "source_policy": "Only TurboScribe-named archives and TurboScribe-named docs were used for strategy conversion. Non-TurboScribe legacy dumps were excluded from this fresh pass.",
+    "unique_archive_hashes": 9,
+    "zip_matches": 73,
+    "windows_c_drive_exact_turboscribe_hits": 0,
+    "wsl_turboscribe_named_matches": 76
+  },
+  "bot_safety_floor": {
+    "mode": "OANDA practice only until replay and paper receipts prove edge",
+    "required_controls": [
+      "OCO or equivalent stop/target attached before entry",
+      "max spread gate",
+      "daily loss breaker",
+      "max positions and pair de-duplication",
+      "session gate before signal scan",
+      "no strategy enabled from transcript alone without replay validation"
+    ]
+  },
+  "strategies": [
+    {
+      "strategy_id": "top_down_bias_gate",
+      "conversion_status": "phase1_ready_as_filter",
+      "primary_sources": [
+        {
+          "archive_id": "959515257",
+          "sha256_prefix": "9949bd8af7b3",
+          "member": "The Best Top Down Analysis Strategy for 2025  Forex Trading Guide.txt"
+        },
+        {
+          "archive_id": "2465927669",
+          "sha256_prefix": "4228f0b0a162",
+          "member": "This Trading Strategy is Boring, but Made Me My First $100,000.txt"
+        }
+      ],
+      "market_fit": "Liquid FX pairs; usable as a direction gate for OANDA practice bot.",
+      "exact_parameters": [
+        {
+          "name": "bias_timeframes",
+          "value": [
+            "weekly",
+            "daily",
+            "4 hour"
+          ],
+          "source_note": "Top-down source names these as the main frames."
+        },
+        {
+          "name": "entry_alignment_ladder",
+          "value": [
+            "2 hour",
+            "1 hour",
+            "30 minute",
+            "15 minute"
+          ],
+          "source_note": "Boring strategy source walks weekly down to 15m."
+        }
+      ],
+      "entry_logic": [
+        "Only permit long signals when weekly/daily/4H structure agrees upward; only permit short signals when they agree downward.",
+        "Use 15m to 2H candles for entry timing after higher-timeframe alignment is established."
+      ],
+      "bot_feature_map": {
+        "existing_fields": [
+          "trend_score",
+          "direction"
+        ],
+        "new_fields_to_add": [
+          "top_down_bias_score",
+          "weekly_bias",
+          "daily_bias",
+          "h4_bias",
+          "entry_timeframe_alignment_score"
+        ],
+        "gates": [
+          "reject counter-trend lower-timeframe setups",
+          "lower confidence if 4H and daily disagree"
+        ]
+      }
+    },
+    {
+      "strategy_id": "ema_9_continuation_scalp",
+      "conversion_status": "phase1_ready_core_workflow",
+      "primary_sources": [
+        {
+          "archive_id": "825774768",
+          "sha256_prefix": "8ef5c56377ed",
+          "member": "Moving Average Trading Tutorial (For Day Trading).txt"
+        },
+        {
+          "archive_id": "825774768",
+          "sha256_prefix": "8ef5c56377ed",
+          "member": "Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.txt"
+        },
+        {
+          "archive_id": "4076235464",
+          "sha256_prefix": "de1718f2c52b",
+          "member": "How to Scalp Like an Elite Prop Trader (Inside Look).txt"
+        }
+      ],
+      "market_fit": "Fast liquid sessions; best for London/NY overlap and tight-spread FX majors.",
+      "exact_parameters": [
+        {
+          "name": "primary_ema",
+          "value": 9,
+          "source_note": "Repeated 9 EMA continuation/reclaim source."
+        },
+        {
+          "name": "context_ma",
+          "value": "200 SMA or 200 EMA context only",
+          "source_note": "Moving average source discusses 200-day SMA/EMA as context, not trigger."
+        },
+        {
+          "name": "risk_reward_floor",
+          "value": "2:1 minimum, 3:1 preferred, 4:1+ stretch only after proof",
+          "source_note": "Daily profits and risk training sources explicitly discuss 2:1, 3:1, and 4:1 examples."
+        }
+      ],
+      "entry_logic": [
+        "Require a strong directional move before the pullback.",
+        "Prefer first touch or reclaim of the 9 EMA; de-rank late repeated touches.",
+        "Enter only after buyers/sellers respond at the 9 EMA or reclaim zone and momentum resumes."
+      ],
+      "exit_logic": [
+        "Stop goes below the pullback/reclaim low for longs or above it for shorts.",
+        "Take profit should be framed in R multiples; do not force fantasy targets.",
+        "Trail with structure or EMA only after trade has expanded enough to justify protection."
+      ],
+      "bot_feature_map": {
+        "existing_workflows": [
+          "continuation",
+          "second_chance",
+          "scalp"
+        ],
+        "existing_fields": [
+          "trend_score",
+          "momentum_score",
+          "retest_score",
+          "scalp_score",
+          "spread_pips"
+        ],
+        "new_fields_to_add": [
+          "ema_9_distance",
+          "ema_9_reclaim_score",
+          "first_touch_quality",
+          "late_touch_penalty"
+        ]
+      }
+    },
+    {
+      "strategy_id": "range_bounce_breakout_classifier",
+      "conversion_status": "phase1_ready_filter",
+      "primary_sources": [
+        {
+          "archive_id": "825774768",
+          "sha256_prefix": "8ef5c56377ed",
+          "member": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).txt"
+        },
+        {
+          "archive_id": "3076884018",
+          "sha256_prefix": "3956da1595c9",
+          "member": "Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).txt"
+        }
+      ],
+      "market_fit": "All liquid markets; for OANDA use it as a regime classifier before trend workflows fire.",
+      "exact_parameters": [
+        {
+          "name": "range_levels",
+          "value": [
+            "support zone",
+            "resistance zone"
+          ],
+          "source_note": "Source instructs drawing support below and resistance above the range."
+        },
+        {
+          "name": "narrow_range_action",
+          "value": "breakout strategy, not bounce strategy",
+          "source_note": "Source says narrow range usually precedes breakout."
+        },
+        {
+          "name": "wide_range_action",
+          "value": "trade bounces only at zones",
+          "source_note": "Use support/resistance zones after identifying a true range."
+        }
+      ],
+      "entry_logic": [
+        "Classify market as trend, wide range, or narrow range before scanning entry workflows.",
+        "Wide range: buy support rejection or sell resistance rejection only when risk/reward is clean.",
+        "Narrow range: wait for breakout and follow-through; avoid blind MACD/indicator signals in chop."
+      ],
+      "bot_feature_map": {
+        "existing_fields": [
+          "breakout_score",
+          "retest_score",
+          "volatility_score"
+        ],
+        "new_fields_to_add": [
+          "range_width_score",
+          "support_rejection_score",
+          "resistance_rejection_score",
+          "chop_penalty"
+        ],
+        "gates": [
+          "disable trend continuation inside unresolved chop",
+          "require breakout_score for narrow-range release"
+        ]
+      }
+    },
+    {
+      "strategy_id": "false_breakout_filter",
+      "conversion_status": "phase1_ready_risk_filter",
+      "primary_sources": [
+        {
+          "archive_id": "825774768",
+          "sha256_prefix": "8ef5c56377ed",
+          "member": "How I Avoid False Breakouts (My Secret Technique).txt"
+        }
+      ],
+      "market_fit": "All breakout workflows; especially useful on 1m/5m/15m execution charts.",
+      "exact_parameters": [
+        {
+          "name": "example_consolidation_rule",
+          "value": "about half the initial move; source example: 15-bar move wants about 7 minutes consolidation",
+          "source_note": "Used as a wait-quality filter, not a universal constant."
+        },
+        {
+          "name": "multi_timeframe_break_pressure",
+          "value": "1 minute plus 15 minute level pressure",
+          "source_note": "Source references one-minute action around a 15-minute key level."
+        }
+      ],
+      "entry_logic": [
+        "Do not buy/sell the first break unless expansion and follow-through are real.",
+        "If the break stalls, becomes lethargic, or immediately returns inside the level, mark as false-break risk.",
+        "Prefer retest/acceptance after break rather than chasing the break candle."
+      ],
+      "bot_feature_map": {
+        "existing_fields": [
+          "breakout_score",
+          "momentum_score",
+          "retest_score"
+        ],
+        "new_fields_to_add": [
+          "break_followthrough_score",
+          "failed_break_risk",
+          "post_break_acceptance_score",
+          "level_touch_count"
+        ],
+        "gates": [
+          "downgrade breakout_score when follow-through is weak",
+          "block entries after immediate failed break"
+        ]
+      }
+    },
+    {
+      "strategy_id": "order_block_retest",
+      "conversion_status": "phase2_candidate_requires_new_features",
+      "primary_sources": [
+        {
+          "archive_id": "825774768",
+          "sha256_prefix": "8ef5c56377ed",
+          "member": "Order Blocks Explained Trade Like the Banks (No BS Guide).txt"
+        },
+        {
+          "archive_id": "2465927669",
+          "sha256_prefix": "4228f0b0a162",
+          "member": "How do ( FVG, OB, RB ) work.txt"
+        }
+      ],
+      "market_fit": "FX majors only after robust candle-structure implementation and replay validation.",
+      "exact_parameters": [
+        {
+          "name": "structure_timeframes_seen",
+          "value": [
+            "4 hour",
+            "1 hour",
+            "15 minute",
+            "5 minute",
+            "1 minute"
+          ],
+          "source_note": "Order-block source includes these chart contexts."
+        },
+        {
+          "name": "validity_requirements",
+          "value": [
+            "break of structure",
+            "unmitigated block",
+            "liquidity/volume/inefficiency context"
+          ],
+          "source_note": "Sources explicitly discuss BOS, mitigated block invalidation, and liquidity/volume/inefficiency."
+        }
+      ],
+      "entry_logic": [
+        "Find the order block around the move that caused structure to break.",
+        "Reject blocks already mitigated by price returning into them before the setup.",
+        "Wait for return into the block and lower-timeframe confirmation before entry."
+      ],
+      "exit_logic": [
+        "Invalidate beyond the block boundary or structure point.",
+        "Target nearby liquidity or opposing structure, not arbitrary far targets."
+      ],
+      "bot_feature_map": {
+        "new_fields_to_add": [
+          "order_block_zone",
+          "order_block_freshness",
+          "break_of_structure_score",
+          "mitigation_status",
+          "structure_invalidation_price"
+        ],
+        "implementation_note": "Do not enable until candle-zone extraction is unit-tested and replayed."
+      }
+    },
+    {
+      "strategy_id": "liquidity_sweep_fvg_midpoint",
+      "conversion_status": "phase2_candidate_requires_new_features",
+      "primary_sources": [
+        {
+          "archive_id": "825774768",
+          "sha256_prefix": "8ef5c56377ed",
+          "member": "Smart Money Concepts How I Combine Liquidity Sweeps, FVGs & Order Blocks (Full Strategy).txt"
+        },
+        {
+          "archive_id": "825774768",
+          "sha256_prefix": "8ef5c56377ed",
+          "member": "ICT 2024 Mentorship  How To Trade ICT FVGs Correctly  September 16, 2024.txt"
+        },
+        {
+          "archive_id": "2465927669",
+          "sha256_prefix": "4228f0b0a162",
+          "member": "How do ( FVG, OB, RB ) work.txt"
+        }
+      ],
+      "market_fit": "Potential OANDA FX edge only if sweep/FVG detection is deterministic and spread-safe.",
+      "exact_parameters": [
+        {
+          "name": "entry_price",
+          "value": "50% / midpoint of the fair value gap",
+          "source_note": "SMC source gives midpoint/50% lower-timeframe FVG entry."
+        },
+        {
+          "name": "confirmation_timeframes",
+          "value": [
+            "5 minute",
+            "1 minute"
+          ],
+          "source_note": "SMC source names these for structure shift/change of character confirmation."
+        },
+        {
+          "name": "target_type",
+          "value": "higher-timeframe buy-side/sell-side liquidity",
+          "source_note": "Source targets higher-timeframe liquidity after entry."
+        }
+      ],
+      "entry_logic": [
+        "Higher timeframe: identify liquidity sweep plus order block/liquidity target.",
+        "Lower timeframe: require market structure shift or change of character.",
+        "Place limit order at 50% of the qualifying FVG instead of chasing market."
+      ],
+      "exit_logic": [
+        "Stop at structure-defined invalidation around sweep/FVG model.",
+        "Take profit at nearest credible higher-timeframe liquidity pool."
+      ],
+      "bot_feature_map": {
+        "new_fields_to_add": [
+          "liquidity_sweep_score",
+          "fvg_zone",
+          "fvg_midpoint_price",
+          "choch_score",
+          "htf_liquidity_target"
+        ],
+        "implementation_note": "Limit-order workflow needed; current shell is score-based only."
+      }
+    },
+    {
+      "strategy_id": "simple_5m_session_scalp",
+      "conversion_status": "phase2_candidate_after_session_replay",
+      "primary_sources": [
+        {
+          "archive_id": "2465927669",
+          "sha256_prefix": "4228f0b0a162",
+          "member": "My Simple 5 Minute Scalping Strategy (Rules Based).txt"
+        }
+      ],
+      "market_fit": "May inform an FX session scalp variant, but source is not OANDA-specific.",
+      "exact_parameters": [
+        {
+          "name": "active_work_time",
+          "value": "less than 90 minutes a day",
+          "source_note": "Source frames strategy as a short focused session."
+        },
+        {
+          "name": "bias_candle",
+          "value": "first 15-minute candle direction",
+          "source_note": "Source uses the first 15m candle as directional context."
+        },
+        {
+          "name": "minimum_r_multiple",
+          "value": "2R",
+          "source_note": "Source states each trade needs a 2R multiple."
+        }
+      ],
+      "entry_logic": [
+        "Use first 15-minute candle direction as the initial session bias.",
+        "Trade retest with strong price action; stop beyond the candle/range that invalidates the retest."
+      ],
+      "bot_feature_map": {
+        "new_fields_to_add": [
+          "session_open_15m_bias",
+          "session_retest_score",
+          "two_r_available"
+        ],
+        "implementation_note": "Replay only inside known strong windows before enabling."
+      }
+    },
+    {
+      "strategy_id": "orderflow_value_area_confirmation",
+      "conversion_status": "research_only_for_oanda_spot_fx",
+      "primary_sources": [
+        {
+          "archive_id": "825774768",
+          "sha256_prefix": "8ef5c56377ed",
+          "member": "The Only Orderflow Guide You'll Ever Need.txt"
+        }
+      ],
+      "market_fit": "Needs true orderflow/volume data; OANDA spot FX candle feed is not enough by itself.",
+      "exact_parameters": [
+        {
+          "name": "concepts",
+          "value": [
+            "value area",
+            "point of control",
+            "delta",
+            "absorption",
+            "imbalance"
+          ],
+          "source_note": "Source explicitly covers these orderflow concepts."
+        }
+      ],
+      "entry_logic": [
+        "Use only as a confirmation layer if reliable volume/orderflow proxy is available.",
+        "Do not infer centralized orderflow from normal OANDA candle OHLC alone."
+      ],
+      "bot_feature_map": {
+        "new_fields_to_add": [
+          "value_area_state",
+          "delta_proxy",
+          "absorption_proxy"
+        ],
+        "implementation_note": "Keep disabled unless a valid data source is attached."
+      }
+    }
+  ],
+  "reject_or_research_buckets": [
+    {
+      "bucket": "marketing_claims_or_untrusted_exact-win-sources",
+      "examples": [
+        "Forex trading Strategy 100% winning trades!! WIN every trade you take!!!"
+      ],
+      "reason": "Use only for negative examples or hypothesis generation; do not convert claims of guaranteed wins into live logic."
+    },
+    {
+      "bucket": "non_trading_or_contaminated_export",
+      "examples": [
+        "TurboScribe Export 2971328458 includes game-dev and mixed non-trading material"
+      ],
+      "reason": "Do not let unrelated transcript material become bot rules."
+    },
+    {
+      "bucket": "options_stock_crypto_specific",
+      "examples": [
+        "0DTE, iron condor, dividend, stock-picking, crypto-only videos"
+      ],
+      "reason": "Outside OANDA FX practice bot scope unless separately requested."
+    }
+  ]
+}

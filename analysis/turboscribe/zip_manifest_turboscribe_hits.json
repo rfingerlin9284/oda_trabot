@@ -1,0 +1,2823 @@
+{
+  "generated_at_local": "2026-06-05 13:53:29",
+  "roots": [
+    "/home/rfing",
+    "/mnt/c/Users/RFing"
+  ],
+  "zip_files_scanned": 1048,
+  "hits": [
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_PHOENIX_backup_20260319_235324.zip",
+      "size_bytes": 1072271736,
+      "mtime_local": "2026-03-19 23:55:28",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+          "size_bytes": 168628
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+          "size_bytes": 49854
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip",
+          "size_bytes": 644053
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip:Zone.Identifier",
+          "size_bytes": 25
+        }
+      ]
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_PHOENIX_backup_20260320_004751.zip",
+      "size_bytes": 1072274987,
+      "mtime_local": "2026-03-20 00:49:34",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+          "size_bytes": 168628
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+          "size_bytes": 49854
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip",
+          "size_bytes": 644053
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip:Zone.Identifier",
+          "size_bytes": 25
+        }
+      ]
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/TurboScribe Export 825774768.zip",
+      "size_bytes": 2546924,
+      "mtime_local": "2026-04-20 20:22:27",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:42",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/TurboScribe Export 1901616476.zip",
+      "size_bytes": 202004,
+      "mtime_local": "2026-04-05 06:38:46",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_CLONE/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_CLONE/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_FREEZE/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_FREEZE/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_DEV/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_DEV/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_PROD/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_PROD/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_CLONE/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_CLONE/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_FREEZE/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_FREEZE/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_DEV/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_DEV/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_PROD/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_PROD/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635.zip",
+      "size_bytes": 294456390,
+      "mtime_local": "2026-04-13 11:13:23",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/",
+          "size_bytes": 0
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.txt",
+          "size_bytes": 23919
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.docx",
+          "size_bytes": 25186
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.docx",
+          "size_bytes": 20721
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).csv",
+          "size_bytes": 40044
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.pdf",
+          "size_bytes": 79782
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.csv",
+          "size_bytes": 36893
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.docx",
+          "size_bytes": 16148
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.csv",
+          "size_bytes": 63644
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).docx",
+          "size_bytes": 17798
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).pdf",
+          "size_bytes": 63627
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.pdf",
+          "size_bytes": 58828
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.txt",
+          "size_bytes": 34407
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).txt",
+          "size_bytes": 25821
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.txt",
+          "size_bytes": 41225
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.csv",
+          "size_bytes": 53262
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.pdf",
+          "size_bytes": 96913
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/",
+          "size_bytes": 0
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/The Difference Between Trading and Investing.pdf",
+          "size_bytes": 36692
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.docx",
+          "size_bytes": 17443
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).srt",
+          "size_bytes": 17586
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/Wall Street Trader I Will EXPOSE Exactly HOW The Market Algorithm Works.docx",
+          "size_bytes": 43935
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/Options Trading Explained - COMPLETE BEGINNERS GUIDE (Part 1).csv",
+          "size_bytes": 19370
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/Technical Analysis is Hard (until you see this).docx",
+          "size_bytes": 17183
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/I Made a Mobile Game for the Money - Here's how  Devlog.csv",
+          "size_bytes": 7515
+        }
+      ]
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_CLONE/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_CLONE/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/OAD_PROD/coinbase_clean_rbotz.zip",
+      "size_bytes": 7054987,
+      "mtime_local": "2026-05-13 08:23:04",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/",
+          "size_bytes": 0
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.csv",
+          "size_bytes": 54933
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.docx",
+          "size_bytes": 20788
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.pdf",
+          "size_bytes": 74473
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.srt",
+          "size_bytes": 68664
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.txt",
+          "size_bytes": 32221
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.csv",
+          "size_bytes": 35140
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.docx",
+          "size_bytes": 17443
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.pdf",
+          "size_bytes": 61066
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.srt",
+          "size_bytes": 44956
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.txt",
+          "size_bytes": 21634
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].csv",
+          "size_bytes": 47095
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].docx",
+          "size_bytes": 18730
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].pdf",
+          "size_bytes": 70647
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].srt",
+          "size_bytes": 57854
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].txt",
+          "size_bytes": 30775
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).csv",
+          "size_bytes": 14093
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).docx",
+          "size_bytes": 10808
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).pdf",
+          "size_bytes": 30758
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).srt",
+          "size_bytes": 17586
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).txt",
+          "size_bytes": 8997
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).csv",
+          "size_bytes": 12963
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).docx",
+          "size_bytes": 10400
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).pdf",
+          "size_bytes": 29856
+        },
+        {
+          "name": "coinbase_clean_rbotz-138c8f494234a5009bf9e9eca2ee82ca9e5e88f8/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).srt",
+          "size_bytes": 16341
+        }
+      ]
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_COINBASE_CLEAN__legacy_cutover_20260418/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_COINBASE_CLEAN__legacy_cutover_20260418/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/RBOTZILLA_OANDA_LAB/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_FREEZE/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_FREEZE/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_DEV/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_DEV/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_PROD/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/CBA_PROD/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/DUAL_BOT_LEGACY/RBOTZILLA_COINBASE_CLEAN__legacy_cutover_20260418/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch1/DUAL_BOT_LEGACY/RBOTZILLA_COINBASE_CLEAN__legacy_cutover_20260418/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_PHOENIX/backups/rbotzilla_pheonix_v3.14.2026_1248.zip",
+      "size_bytes": 299359375,
+      "mtime_local": "2026-03-14 12:50:14",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "rbotzilla_pheonix_v3.14.2026_1248/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+          "size_bytes": 168628
+        },
+        {
+          "name": "rbotzilla_pheonix_v3.14.2026_1248/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+          "size_bytes": 49854
+        },
+        {
+          "name": "rbotzilla_pheonix_v3.14.2026_1248/dec4_dec10/TurboScribe Export 2465927669.zip:Zone.Identifier",
+          "size_bytes": 25
+        }
+      ]
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip",
+      "size_bytes": 644053,
+      "mtime_local": "2026-03-01 23:41:10",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/WSL_LEGACY_READ_ONLY/archived_20260530_oanda_legacy_batch2/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/cba_prod_current__1d0579d__d15f12e29ea9__20260425_053025/repo/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/cba_prod_current__1d0579d__d15f12e29ea9__20260425_053025/repo/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/home/rfing/READ_ONLY_LEGACY/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Desktop/RBOTZILLA_PHOENIX_Backup_20260309.zip",
+      "size_bytes": 773450873,
+      "mtime_local": "2026-03-09 06:17:49",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+          "size_bytes": 168628
+        },
+        {
+          "name": "_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+          "size_bytes": 49854
+        },
+        {
+          "name": "dec4_dec10/TurboScribe Export 2465927669.zip",
+          "size_bytes": 644053
+        },
+        {
+          "name": "dec4_dec10/TurboScribe Export 2465927669.zip:Zone.Identifier",
+          "size_bytes": 25
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Desktop/RBOTZILLA_PHOENIX_backup_20260309_2153.zip",
+      "size_bytes": 301704788,
+      "mtime_local": "2026-03-09 21:54:48",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+          "size_bytes": 168628
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+          "size_bytes": 49854
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip",
+          "size_bytes": 644053
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip:Zone.Identifier",
+          "size_bytes": 25
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/coinbase_clean_rbotz-copilot-fix-order-management-issues.zip",
+      "size_bytes": 7048627,
+      "mtime_local": "2026-04-09 22:12:47",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/",
+          "size_bytes": 0
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.csv",
+          "size_bytes": 54933
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.docx",
+          "size_bytes": 20788
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.pdf",
+          "size_bytes": 74473
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.srt",
+          "size_bytes": 68664
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.txt",
+          "size_bytes": 32221
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.csv",
+          "size_bytes": 35140
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.docx",
+          "size_bytes": 17443
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.pdf",
+          "size_bytes": 61066
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.srt",
+          "size_bytes": 44956
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.txt",
+          "size_bytes": 21634
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].csv",
+          "size_bytes": 47095
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].docx",
+          "size_bytes": 18730
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].pdf",
+          "size_bytes": 70647
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].srt",
+          "size_bytes": 57854
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].txt",
+          "size_bytes": 30775
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).csv",
+          "size_bytes": 14093
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).docx",
+          "size_bytes": 10808
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).pdf",
+          "size_bytes": 30758
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).srt",
+          "size_bytes": 17586
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).txt",
+          "size_bytes": 8997
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).csv",
+          "size_bytes": 12963
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).docx",
+          "size_bytes": 10400
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).pdf",
+          "size_bytes": 29856
+        },
+        {
+          "name": "coinbase_clean_rbotz-copilot-fix-order-management-issues/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).srt",
+          "size_bytes": 16341
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/coinbase_clean_rbotz-main (2).zip",
+      "size_bytes": 7007859,
+      "mtime_local": "2026-05-14 03:02:49",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/",
+          "size_bytes": 0
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.csv",
+          "size_bytes": 54933
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.docx",
+          "size_bytes": 20788
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.pdf",
+          "size_bytes": 74473
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.srt",
+          "size_bytes": 68664
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.txt",
+          "size_bytes": 32221
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.csv",
+          "size_bytes": 35140
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.docx",
+          "size_bytes": 17443
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.pdf",
+          "size_bytes": 61066
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.srt",
+          "size_bytes": 44956
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.txt",
+          "size_bytes": 21634
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].csv",
+          "size_bytes": 47095
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].docx",
+          "size_bytes": 18730
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].pdf",
+          "size_bytes": 70647
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].srt",
+          "size_bytes": 57854
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].txt",
+          "size_bytes": 30775
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).csv",
+          "size_bytes": 14093
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).docx",
+          "size_bytes": 10808
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).pdf",
+          "size_bytes": 30758
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).srt",
+          "size_bytes": 17586
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).txt",
+          "size_bytes": 8997
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).csv",
+          "size_bytes": 12963
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).docx",
+          "size_bytes": 10400
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).pdf",
+          "size_bytes": 29856
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).srt",
+          "size_bytes": 16341
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/coinbase_clean_rbotz-main.zip",
+      "size_bytes": 7009047,
+      "mtime_local": "2026-04-08 16:52:23",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/",
+          "size_bytes": 0
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.csv",
+          "size_bytes": 54933
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.docx",
+          "size_bytes": 20788
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.pdf",
+          "size_bytes": 74473
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.srt",
+          "size_bytes": 68664
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.txt",
+          "size_bytes": 32221
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.csv",
+          "size_bytes": 35140
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.docx",
+          "size_bytes": 17443
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.pdf",
+          "size_bytes": 61066
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.srt",
+          "size_bytes": 44956
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.txt",
+          "size_bytes": 21634
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].csv",
+          "size_bytes": 47095
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].docx",
+          "size_bytes": 18730
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].pdf",
+          "size_bytes": 70647
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].srt",
+          "size_bytes": 57854
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].txt",
+          "size_bytes": 30775
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).csv",
+          "size_bytes": 14093
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).docx",
+          "size_bytes": 10808
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).pdf",
+          "size_bytes": 30758
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).srt",
+          "size_bytes": 17586
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).txt",
+          "size_bytes": 8997
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).csv",
+          "size_bytes": 12963
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).docx",
+          "size_bytes": 10400
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).pdf",
+          "size_bytes": 29856
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).srt",
+          "size_bytes": 16341
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/coinbase_clean_rbotz-master.zip",
+      "size_bytes": 225656407,
+      "mtime_local": "2026-04-09 22:12:36",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/",
+          "size_bytes": 0
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.csv",
+          "size_bytes": 54933
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.csv:Zone.Identifier",
+          "size_bytes": 25
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.docx",
+          "size_bytes": 20788
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.docx:Zone.Identifier",
+          "size_bytes": 25
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.pdf",
+          "size_bytes": 74473
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.pdf:Zone.Identifier",
+          "size_bytes": 25
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.srt",
+          "size_bytes": 68664
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.srt:Zone.Identifier",
+          "size_bytes": 25
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.txt",
+          "size_bytes": 32221
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.txt:Zone.Identifier",
+          "size_bytes": 25
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.csv",
+          "size_bytes": 35140
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.csv:Zone.Identifier",
+          "size_bytes": 25
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.docx",
+          "size_bytes": 17443
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.docx:Zone.Identifier",
+          "size_bytes": 25
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.pdf",
+          "size_bytes": 61066
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.pdf:Zone.Identifier",
+          "size_bytes": 25
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.srt",
+          "size_bytes": 44956
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.srt:Zone.Identifier",
+          "size_bytes": 25
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.txt",
+          "size_bytes": 21634
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.txt:Zone.Identifier",
+          "size_bytes": 25
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].csv",
+          "size_bytes": 47095
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].csv:Zone.Identifier",
+          "size_bytes": 25
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].docx",
+          "size_bytes": 18730
+        },
+        {
+          "name": "coinbase_clean_rbotz-master/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].docx:Zone.Identifier",
+          "size_bytes": 25
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/dec4_dec10-20260302T042938Z-1-001.zip",
+      "size_bytes": 6022691,
+      "mtime_local": "2026-03-01 23:29:49",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "dec4_dec10/TurboScribe Export 2465927669.zip",
+          "size_bytes": 644053
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/dec4_dec10-20260511T083828Z-3-001.zip",
+      "size_bytes": 6022691,
+      "mtime_local": "2026-05-11 04:38:44",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "dec4_dec10/TurboScribe Export 2465927669.zip",
+          "size_bytes": 644053
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/OANDA_GIT_CLEAN-main.zip",
+      "size_bytes": 6676991,
+      "mtime_local": "2026-04-12 08:13:21",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/",
+          "size_bytes": 0
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.csv",
+          "size_bytes": 54933
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.docx",
+          "size_bytes": 20788
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.pdf",
+          "size_bytes": 74473
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.srt",
+          "size_bytes": 68664
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.txt",
+          "size_bytes": 32221
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.csv",
+          "size_bytes": 35140
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.docx",
+          "size_bytes": 17443
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.pdf",
+          "size_bytes": 61066
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.srt",
+          "size_bytes": 44956
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.txt",
+          "size_bytes": 21634
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].csv",
+          "size_bytes": 47095
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].docx",
+          "size_bytes": 18730
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].pdf",
+          "size_bytes": 70647
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].srt",
+          "size_bytes": 57854
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].txt",
+          "size_bytes": 30775
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).csv",
+          "size_bytes": 14093
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).docx",
+          "size_bytes": 10808
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).pdf",
+          "size_bytes": 30758
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).srt",
+          "size_bytes": 17586
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).txt",
+          "size_bytes": 8997
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).csv",
+          "size_bytes": 12963
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).docx",
+          "size_bytes": 10400
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).pdf",
+          "size_bytes": 29856
+        },
+        {
+          "name": "OANDA_GIT_CLEAN-main/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).srt",
+          "size_bytes": 16341
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/OAND_BAK_4-9-2026.zip",
+      "size_bytes": 7009195,
+      "mtime_local": "2026-04-09 22:11:59",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/",
+          "size_bytes": 0
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.csv",
+          "size_bytes": 54933
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.docx",
+          "size_bytes": 20788
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.pdf",
+          "size_bytes": 74473
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.srt",
+          "size_bytes": 68664
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Build Anything with Grok 3, Here's How.txt",
+          "size_bytes": 32221
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.csv",
+          "size_bytes": 35140
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.docx",
+          "size_bytes": 17443
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.pdf",
+          "size_bytes": 61066
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.srt",
+          "size_bytes": 44956
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.txt",
+          "size_bytes": 21634
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].csv",
+          "size_bytes": 47095
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].docx",
+          "size_bytes": 18730
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].pdf",
+          "size_bytes": 70647
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].srt",
+          "size_bytes": 57854
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How To Trade Futures For Beginners  The Basics of Futures Trading [Class 1].txt",
+          "size_bytes": 30775
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).csv",
+          "size_bytes": 14093
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).docx",
+          "size_bytes": 10808
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).pdf",
+          "size_bytes": 30758
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).srt",
+          "size_bytes": 17586
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).txt",
+          "size_bytes": 8997
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).csv",
+          "size_bytes": 12963
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).docx",
+          "size_bytes": 10400
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).pdf",
+          "size_bytes": 29856
+        },
+        {
+          "name": "coinbase_clean_rbotz-main/oanda_bot/TurboScribe Export 2971328458/How to Make a Game in 10 Minutes (and then publish it).srt",
+          "size_bytes": 16341
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/PHOENIX_V2_CONSOLIDATED.zip",
+      "size_bytes": 1210117469,
+      "mtime_local": "2026-03-01 23:30:57",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+          "size_bytes": 49854
+        },
+        {
+          "name": "a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+          "size_bytes": 168628
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/PRODUCTION_BUNDLES-20260516T131527Z-3-001.zip",
+      "size_bytes": 609578719,
+      "mtime_local": "2026-05-16 17:08:47",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018.zip",
+          "size_bytes": 451640
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464.zip",
+          "size_bytes": 455532
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).txt",
+          "size_bytes": 25821
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.csv",
+          "size_bytes": 36893
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.txt",
+          "size_bytes": 34407
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.docx",
+          "size_bytes": 16148
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.csv",
+          "size_bytes": 53262
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).csv",
+          "size_bytes": 40044
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.csv",
+          "size_bytes": 63644
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.docx",
+          "size_bytes": 20721
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.txt",
+          "size_bytes": 23919
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.pdf",
+          "size_bytes": 58828
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).docx",
+          "size_bytes": 17798
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).pdf",
+          "size_bytes": 63627
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.docx",
+          "size_bytes": 25186
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.pdf",
+          "size_bytes": 96913
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.pdf",
+          "size_bytes": 79782
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018/How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.docx",
+          "size_bytes": 25394
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018/Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).csv",
+          "size_bytes": 23040
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018/Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).txt",
+          "size_bytes": 15465
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.docx",
+          "size_bytes": 20722
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.txt",
+          "size_bytes": 34407
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.csv",
+          "size_bytes": 53262
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018/How I Swing Trade for Continuous Realized Gains - My Full Strategy Revealed.txt",
+          "size_bytes": 50699
+        },
+        {
+          "name": "PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018/Most Effective RANGE Trading Strategy for Crypto Forex & Stocks (SidewaysChoppy Market Strategy).docx",
+          "size_bytes": 12547
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/rbotzilla_pheonix-main (1).zip",
+      "size_bytes": 6193273,
+      "mtime_local": "2026-03-05 00:40:43",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "rbotzilla_pheonix-main/dec4_dec10/TurboScribe Export 2465927669.zip:Zone.Identifier",
+          "size_bytes": 25
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/rbotzilla_pheonix-main.zip",
+      "size_bytes": 6193273,
+      "mtime_local": "2026-03-04 04:34:16",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "rbotzilla_pheonix-main/dec4_dec10/TurboScribe Export 2465927669.zip:Zone.Identifier",
+          "size_bytes": 25
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/RICK_PHOENIX-20260302T042958Z-1-001.zip",
+      "size_bytes": 1632888338,
+      "mtime_local": "2026-03-02 00:21:58",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "RICK_PHOENIX/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+          "size_bytes": 49854
+        },
+        {
+          "name": "RICK_PHOENIX/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+          "size_bytes": 168628
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/RICK_PHOENIX-20260516T131457Z-3-001.zip",
+      "size_bytes": 1933377539,
+      "mtime_local": "2026-05-16 09:28:53",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "RICK_PHOENIX/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+          "size_bytes": 49854
+        },
+        {
+          "name": "RICK_PHOENIX/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+          "size_bytes": 168628
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/TurboScribe Export 1019628205.zip",
+      "size_bytes": 1183241,
+      "mtime_local": "2026-03-30 23:54:20",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/TurboScribe Export 1901616476.zip",
+      "size_bytes": 202004,
+      "mtime_local": "2026-04-05 06:38:46",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/TurboScribe Export 2171000103.zip",
+      "size_bytes": 4190668,
+      "mtime_local": "2026-03-11 20:37:54",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/TurboScribe Export 2378994326.zip",
+      "size_bytes": 1750887,
+      "mtime_local": "2026-03-11 20:37:51",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:42",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/TurboScribe Export 825774768.zip",
+      "size_bytes": 2546924,
+      "mtime_local": "2026-04-20 20:22:27",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/dec4_dec10-20260302T042938Z-1-001/dec4_dec10/TurboScribe Export 2465927669.zip",
+      "size_bytes": 644053,
+      "mtime_local": "2026-03-01 23:41:10",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/Downloads/dec4_dec10-20260511T083828Z-3-001/dec4_dec10/TurboScribe Export 2465927669.zip",
+      "size_bytes": 644053,
+      "mtime_local": "2026-05-13 10:54:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/FLASH_DRIVE_CLONE_20260429_225304/rfing_wsl_rooted_folders_files/CBA_DEV/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/FLASH_DRIVE_CLONE_20260429_225304/rfing_wsl_rooted_folders_files/CBA_DEV/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635.zip",
+      "size_bytes": 294456390,
+      "mtime_local": "2026-04-13 11:13:23",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/",
+          "size_bytes": 0
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.txt",
+          "size_bytes": 23919
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.docx",
+          "size_bytes": 25186
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.docx",
+          "size_bytes": 20721
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).csv",
+          "size_bytes": 40044
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.pdf",
+          "size_bytes": 79782
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.csv",
+          "size_bytes": 36893
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.docx",
+          "size_bytes": 16148
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.csv",
+          "size_bytes": 63644
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).docx",
+          "size_bytes": 17798
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).pdf",
+          "size_bytes": 63627
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.pdf",
+          "size_bytes": 58828
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.txt",
+          "size_bytes": 34407
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).txt",
+          "size_bytes": 25821
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.txt",
+          "size_bytes": 41225
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.csv",
+          "size_bytes": 53262
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.pdf",
+          "size_bytes": 96913
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/",
+          "size_bytes": 0
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/The Difference Between Trading and Investing.pdf",
+          "size_bytes": 36692
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.docx",
+          "size_bytes": 17443
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).srt",
+          "size_bytes": 17586
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/Wall Street Trader I Will EXPOSE Exactly HOW The Market Algorithm Works.docx",
+          "size_bytes": 43935
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/Options Trading Explained - COMPLETE BEGINNERS GUIDE (Part 1).csv",
+          "size_bytes": 19370
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/Technical Analysis is Hard (until you see this).docx",
+          "size_bytes": 17183
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/I Made a Mobile Game for the Money - Here's how  Devlog.csv",
+          "size_bytes": 7515
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_LAB/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_LAB/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_LAB/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_LAB/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_LAB/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_LAB/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_LAB/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_OANDA_LAB/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_PHOENIX/backups/rbotzilla_pheonix_v3.14.2026_1248.zip",
+      "size_bytes": 299359375,
+      "mtime_local": "2026-03-14 12:50:14",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "rbotzilla_pheonix_v3.14.2026_1248/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+          "size_bytes": 168628
+        },
+        {
+          "name": "rbotzilla_pheonix_v3.14.2026_1248/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+          "size_bytes": 49854
+        },
+        {
+          "name": "rbotzilla_pheonix_v3.14.2026_1248/dec4_dec10/TurboScribe Export 2465927669.zip:Zone.Identifier",
+          "size_bytes": 25
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip",
+      "size_bytes": 644053,
+      "mtime_local": "2026-03-01 23:41:10",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_PHOENIX_backup_20260319_235324.zip",
+      "size_bytes": 1072271736,
+      "mtime_local": "2026-03-19 23:55:28",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+          "size_bytes": 168628
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+          "size_bytes": 49854
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip",
+          "size_bytes": 644053
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip:Zone.Identifier",
+          "size_bytes": 25
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_PHOENIX_backup_20260320_004751.zip",
+      "size_bytes": 1072274987,
+      "mtime_local": "2026-03-20 00:49:34",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+          "size_bytes": 168628
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+          "size_bytes": 49854
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip",
+          "size_bytes": 644053
+        },
+        {
+          "name": "home/rfing/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip:Zone.Identifier",
+          "size_bytes": 25
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/TurboScribe Export 1901616476.zip",
+      "size_bytes": 202004,
+      "mtime_local": "2026-04-05 06:38:46",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:42",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/TurboScribe Export 825774768.zip",
+      "size_bytes": 2546924,
+      "mtime_local": "2026-04-20 20:22:27",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_CLONE/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_CLONE/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_DEV/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_DEV/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_FREEZE/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_FREEZE/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_PROD/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/CBA_PROD/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025439/repos/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_CLONE/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_CLONE/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_DEV/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_DEV/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_FREEZE/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_FREEZE/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_PROD/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/backups/RESTORED_PRE10AM_TRANSFER_READY_20260430_025722/repos/CBA_PROD/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/CBA_CLONE/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/CBA_CLONE/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/CBA_DEV/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/CBA_DEV/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/CBA_FREEZE/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/CBA_FREEZE/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/CBA_PROD/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/CBA_PROD/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/DUAL_BOT_LEGACY/RBOTZILLA_COINBASE_CLEAN__legacy_cutover_20260418/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/DUAL_BOT_LEGACY/RBOTZILLA_COINBASE_CLEAN__legacy_cutover_20260418/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635.zip",
+      "size_bytes": 294456390,
+      "mtime_local": "2026-04-13 11:13:23",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/",
+          "size_bytes": 0
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.txt",
+          "size_bytes": 23919
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.docx",
+          "size_bytes": 25186
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.docx",
+          "size_bytes": 20721
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).csv",
+          "size_bytes": 40044
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.pdf",
+          "size_bytes": 79782
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.csv",
+          "size_bytes": 36893
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.docx",
+          "size_bytes": 16148
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.csv",
+          "size_bytes": 63644
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).docx",
+          "size_bytes": 17798
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).pdf",
+          "size_bytes": 63627
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Scalping series #01 Rules for scalping.pdf",
+          "size_bytes": 58828
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.txt",
+          "size_bytes": 34407
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to Scalp Like an Elite Prop Trader (Inside Look).txt",
+          "size_bytes": 25821
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.txt",
+          "size_bytes": 41225
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/Step-by-Step Tutorial to Make Consistent Daily Profits in 2026.csv",
+          "size_bytes": 53262
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464/How to use Claude To Gain a Huge Day Trading Edge.pdf",
+          "size_bytes": 96913
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/",
+          "size_bytes": 0
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/The Difference Between Trading and Investing.pdf",
+          "size_bytes": 36692
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/Can I remake those SHTTY mobile games in 1 HOUR.docx",
+          "size_bytes": 17443
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/How to Build a Basic Android Game in Just 7 Minutes (Unity).srt",
+          "size_bytes": 17586
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/Wall Street Trader I Will EXPOSE Exactly HOW The Market Algorithm Works.docx",
+          "size_bytes": 43935
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/Options Trading Explained - COMPLETE BEGINNERS GUIDE (Part 1).csv",
+          "size_bytes": 19370
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/Technical Analysis is Hard (until you see this).docx",
+          "size_bytes": 17183
+        },
+        {
+          "name": "COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 2971328458/I Made a Mobile Game for the Money - Here's how  Devlog.csv",
+          "size_bytes": 7515
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/PRODUCTION_BUNDLES/COINBASE_LIVE_ROLLBACK_BUNDLE_20260413_110635/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_MASTER_SNAPSHOT/oanda_bot/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_CLEAN__pre_frozen_restore_20260415_094805/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_LAB/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_LAB/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_LAB/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_LAB/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_LAB/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_LAB/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_LAB/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_OANDA_LAB/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_PHOENIX/backups/rbotzilla_pheonix_v3.14.2026_1248.zip",
+      "size_bytes": 299359375,
+      "mtime_local": "2026-03-14 12:50:14",
+      "file_name_match": false,
+      "entry_hits": [
+        {
+          "name": "rbotzilla_pheonix_v3.14.2026_1248/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.pdf",
+          "size_bytes": 168628
+        },
+        {
+          "name": "rbotzilla_pheonix_v3.14.2026_1248/_source_repos/Rbotzilla_pheonix_v1/a_zip_file_segments/rick_system_zip/Trading Strategies from Ten Recent TurboScribe Transcripts.docx",
+          "size_bytes": 49854
+        },
+        {
+          "name": "rbotzilla_pheonix_v3.14.2026_1248/dec4_dec10/TurboScribe Export 2465927669.zip:Zone.Identifier",
+          "size_bytes": 25
+        }
+      ]
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_PHOENIX/dec4_dec10/TurboScribe Export 2465927669.zip",
+      "size_bytes": 644053,
+      "mtime_local": "2026-03-01 23:41:10",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/cba_prod_current__1d0579d__d15f12e29ea9__20260425_053025/repo/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 11:35:25",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/cba_prod_current__1d0579d__d15f12e29ea9__20260425_053025/repo/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 3076884018.zip",
+      "size_bytes": 451640,
+      "mtime_local": "2026-04-05 10:26:26",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 4076235464.zip",
+      "size_bytes": 455532,
+      "mtime_local": "2026-04-05 11:33:44",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 2971328458.zip",
+      "size_bytes": 1293063,
+      "mtime_local": "2026-03-27 22:56:02",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 319702483.zip",
+      "size_bytes": 4085841,
+      "mtime_local": "2026-03-27 22:56:07",
+      "file_name_match": true,
+      "entry_hits": []
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/rfing/RBOTZILLA_VERSION_AUDIT_LAB/candidate_clones/oad_pre_frozen_restore__9ac14c8__3e11c3fe3e16__20260425_053023/repo/backups/SNAPSHOT_BACKUP_rbot_v4.01.26_20260401_1426/TurboScribe Export 959515257.zip",
+      "size_bytes": 325164,
+      "mtime_local": "2026-03-27 22:56:01",
+      "file_name_match": true,
+      "entry_hits": []
+    }
+  ],
+  "bad_turboscribe_named_zips": [
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/CBA_CLONE/TurboScribe Export 3076884018.zip",
+      "error": "File is not a zip file"
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/CBA_CLONE/TurboScribe Export 4076235464.zip",
+      "error": "File is not a zip file"
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/CBA_DEV/TurboScribe Export 3076884018.zip",
+      "error": "File is not a zip file"
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/CBA_DEV/TurboScribe Export 4076235464.zip",
+      "error": "File is not a zip file"
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/CBA_FREEZE/TurboScribe Export 3076884018.zip",
+      "error": "File is not a zip file"
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/CBA_FREEZE/TurboScribe Export 4076235464.zip",
+      "error": "File is not a zip file"
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/CBA_PROD/TurboScribe Export 3076884018.zip",
+      "error": "File is not a zip file"
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/CBA_PROD/TurboScribe Export 4076235464.zip",
+      "error": "File is not a zip file"
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 3076884018.zip",
+      "error": "File is not a zip file"
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/COINBASE_RESTORE_TEST_20260413_110635/TurboScribe Export 4076235464.zip",
+      "error": "File is not a zip file"
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/DUAL_BOT_LEGACY/RBOTZILLA_COINBASE_CLEAN__legacy_cutover_20260418/TurboScribe Export 3076884018.zip",
+      "error": "File is not a zip file"
+    },
+    {
+      "path": "/mnt/c/Users/RFing/OneDrive/Desktop/rfing_wsl_rooted_folders_files/DUAL_BOT_LEGACY/RBOTZILLA_COINBASE_CLEAN__legacy_cutover_20260418/TurboScribe Export 4076235464.zip",
+      "error": "File is not a zip file"
+    }
+  ],
+  "elapsed_sec": 683.05
+}

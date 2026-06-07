@@ -1,0 +1,268 @@
+{
+  "pack_id": "legacy_phase1",
+  "label": "Legacy Phase 1 hardcoded behavior, expressed as a swappable strategy pack",
+  "metadata": {
+    "mode": "practice_only",
+    "purpose": "Compatibility pack that mirrors the original hardcoded SignalPipelineShell, ranking, sizing, and exit profile behavior."
+  },
+  "workflow_priority": {
+    "continuation": 4.0,
+    "second_chance": 3.0,
+    "fashionably_late": 2.0,
+    "scalp": 1.0
+  },
+  "position_sizing": [
+    {
+      "min_confidence": 0.9,
+      "min_votes": 4,
+      "units_multiplier": 1.0
+    },
+    {
+      "min_confidence": 0.85,
+      "min_votes": 0,
+      "units_multiplier": 0.8
+    },
+    {
+      "min_confidence": 0.0,
+      "min_votes": 0,
+      "units_multiplier": 0.6
+    }
+  ],
+  "exit_profiles": {
+    "default": {
+      "profile_name": "clip_75pct_tp",
+      "stop_pips": 10.0,
+      "target_pips": 25.2,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 15.0
+    },
+    "clip_75pct_tp": {
+      "profile_name": "clip_75pct_tp",
+      "stop_pips": 10.0,
+      "target_pips": 25.2,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 15.0
+    },
+    "wick_scratch_3bar": {
+      "profile_name": "wick_scratch_3bar",
+      "stop_pips": 10.0,
+      "target_pips": 12.6,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 15.0
+    },
+    "turboscribe_2r_plus": {
+      "profile_name": "turboscribe_2r_plus",
+      "stop_pips": 10.0,
+      "target_pips": 25.2,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 15.0
+    },
+    "turboscribe_scalp_2r": {
+      "profile_name": "turboscribe_scalp_2r",
+      "stop_pips": 10.0,
+      "target_pips": 20.0,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 12.0
+    }
+  },
+  "workflow_exit_profiles": {
+    "*": "clip_75pct_tp",
+    "scalp": "wick_scratch_3bar"
+  },
+  "workflows": {
+    "continuation": {
+      "min_votes": 2,
+      "min_confidence": 0.55,
+      "checks": [
+        {
+          "label": "trend aligned",
+          "field": "trend_score",
+          "operator": "gte",
+          "value": 0.7
+        },
+        {
+          "label": "momentum healthy",
+          "field": "momentum_score",
+          "operator": "gte",
+          "value": 0.65
+        },
+        {
+          "label": "breakout ready",
+          "field": "breakout_score",
+          "operator": "gte",
+          "value": 0.65
+        },
+        {
+          "label": "retest stable",
+          "field": "retest_score",
+          "operator": "gte",
+          "value": 0.55
+        }
+      ],
+      "confidence_terms": [
+        {
+          "field": "trend_score",
+          "weight": 0.35
+        },
+        {
+          "field": "momentum_score",
+          "weight": 0.25
+        },
+        {
+          "field": "breakout_score",
+          "weight": 0.25
+        },
+        {
+          "field": "retest_score",
+          "weight": 0.15
+        }
+      ]
+    },
+    "second_chance": {
+      "min_votes": 2,
+      "min_confidence": 0.55,
+      "checks": [
+        {
+          "label": "trend still intact",
+          "field": "trend_score",
+          "operator": "gte",
+          "value": 0.65
+        },
+        {
+          "label": "retest holding",
+          "field": "retest_score",
+          "operator": "gte",
+          "value": 0.7
+        },
+        {
+          "label": "momentum recovered",
+          "field": "momentum_score",
+          "operator": "gte",
+          "value": 0.6
+        },
+        {
+          "label": "breakout memory still valid",
+          "field": "breakout_score",
+          "operator": "gte",
+          "value": 0.5
+        }
+      ],
+      "confidence_terms": [
+        {
+          "field": "trend_score",
+          "weight": 0.35
+        },
+        {
+          "field": "retest_score",
+          "weight": 0.25
+        },
+        {
+          "field": "momentum_score",
+          "weight": 0.25
+        },
+        {
+          "field": "breakout_score",
+          "weight": 0.15
+        }
+      ]
+    },
+    "fashionably_late": {
+      "min_votes": 2,
+      "min_confidence": 0.55,
+      "checks": [
+        {
+          "label": "trend is strong",
+          "field": "trend_score",
+          "operator": "gte",
+          "value": 0.7
+        },
+        {
+          "label": "retest is clean",
+          "field": "retest_score",
+          "operator": "gte",
+          "value": 0.75
+        },
+        {
+          "label": "momentum still alive",
+          "field": "momentum_score",
+          "operator": "gte",
+          "value": 0.55
+        },
+        {
+          "label": "breakout not exhausted",
+          "field": "breakout_score",
+          "operator": "gte",
+          "value": 0.45
+        }
+      ],
+      "confidence_terms": [
+        {
+          "field": "trend_score",
+          "weight": 0.35
+        },
+        {
+          "field": "retest_score",
+          "weight": 0.25
+        },
+        {
+          "field": "momentum_score",
+          "weight": 0.25
+        },
+        {
+          "field": "breakout_score",
+          "weight": 0.15
+        }
+      ]
+    },
+    "scalp": {
+      "min_votes": 2,
+      "min_confidence": 0.55,
+      "checks": [
+        {
+          "label": "scalp pressure is live",
+          "field": "scalp_score",
+          "operator": "gte",
+          "value": 0.7
+        },
+        {
+          "label": "micro momentum is strong",
+          "field": "momentum_score",
+          "operator": "gte",
+          "value": 0.7
+        },
+        {
+          "label": "spread is acceptable",
+          "field": "spread_pips",
+          "operator": "lte",
+          "value": 1.8
+        },
+        {
+          "label": "volatility is usable",
+          "field": "volatility_score",
+          "operator": "gte",
+          "value": 0.55
+        }
+      ],
+      "confidence_terms": [
+        {
+          "field": "scalp_score",
+          "weight": 0.35
+        },
+        {
+          "field": "momentum_score",
+          "weight": 0.25
+        },
+        {
+          "field": "spread_pips",
+          "operator": "lte",
+          "value": 1.8,
+          "weight": 0.25
+        },
+        {
+          "field": "volatility_score",
+          "weight": 0.15
+        }
+      ]
+    }
+  }
+}

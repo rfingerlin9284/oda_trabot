@@ -1,0 +1,180 @@
+{
+  "pack_id": "post_9am_ema_fib_momentum_continuation",
+  "label": "Post-9 AM EMA/Fibonacci momentum continuation cartridge, 9 AM to 11:30 AM ET",
+  "metadata": {
+    "mode": "practice_only",
+    "primary_strategy_label": "momentum_continuation",
+    "source_policy": "Derived from clean high-confidence OANDA practice log receipts only; no legacy code imported.",
+    "evidence_report": "docs/OUTSIDE_FROZEN_SESSION_STRATEGY_REASSESSMENT_20260607.md",
+    "active_entry_window_et": "09:00-11:30",
+    "protected_frozen_window_et": "03:00-08:30",
+    "clean_core_result": "7 wins, 0 losses, approximately +$562.31",
+    "proven_pairs": [
+      "AUD_USD",
+      "EUR_USD",
+      "NZD_USD",
+      "USD_CAD",
+      "USD_CHF"
+    ],
+    "required_detector_proxies": [
+      "ema_stack",
+      "fibonacci",
+      "continuation"
+    ],
+    "excluded_strategy_labels": [
+      "scalp",
+      "reversal",
+      "trap_reversal",
+      "rsi_extreme",
+      "generic_momentum"
+    ],
+    "runtime_gate": "CartridgeSchedule opens entries from 9:00 AM ET through 11:29 AM ET only.",
+    "handoff_policy": "Trades opened by another cartridge are managed by their recorded exit profile; this cartridge controls new entries only."
+  },
+  "workflow_priority": {
+    "continuation": 9.0
+  },
+  "position_sizing": [
+    {
+      "min_confidence": 0.9,
+      "min_votes": 7,
+      "units_multiplier": 1.0
+    },
+    {
+      "min_confidence": 0.84,
+      "min_votes": 6,
+      "units_multiplier": 0.8
+    },
+    {
+      "min_confidence": 0.0,
+      "min_votes": 0,
+      "units_multiplier": 0.6
+    }
+  ],
+  "exit_profiles": {
+    "default": {
+      "profile_name": "clip_75pct_tp",
+      "stop_pips": 10.0,
+      "target_pips": 25.2,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 15.0
+    },
+    "clip_75pct_tp": {
+      "profile_name": "clip_75pct_tp",
+      "stop_pips": 10.0,
+      "target_pips": 25.2,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 15.0
+    }
+  },
+  "workflow_exit_profiles": {
+    "*": "clip_75pct_tp",
+    "continuation": "clip_75pct_tp"
+  },
+  "workflows": {
+    "continuation": {
+      "min_votes": 6,
+      "min_confidence": 0.78,
+      "checks": [
+        {
+          "label": "post-9 EMA stack proxy is aligned",
+          "field": "top_down_bias_score",
+          "operator": "gte",
+          "value": 0.70
+        },
+        {
+          "label": "EMA reclaim supports continuation",
+          "field": "ema_9_reclaim_score",
+          "operator": "gte",
+          "value": 0.58
+        },
+        {
+          "label": "trend remains aligned after morning move",
+          "field": "trend_score",
+          "operator": "gte",
+          "value": 0.72
+        },
+        {
+          "label": "momentum has not died after the morning window",
+          "field": "momentum_score",
+          "operator": "gte",
+          "value": 0.68
+        },
+        {
+          "label": "post-break acceptance is holding",
+          "field": "post_break_acceptance_score",
+          "operator": "gte",
+          "value": 0.62
+        },
+        {
+          "label": "Fibonacci/retest proxy is holding",
+          "field": "retest_score",
+          "operator": "gte",
+          "value": 0.55
+        },
+        {
+          "label": "failed-break contamination is low",
+          "field": "failed_break_risk",
+          "operator": "lte",
+          "value": 0.35
+        },
+        {
+          "label": "chop penalty is acceptable",
+          "field": "chop_penalty",
+          "operator": "lte",
+          "value": 0.45
+        },
+        {
+          "label": "spread is acceptable for OANDA continuation",
+          "field": "spread_pips",
+          "operator": "lte",
+          "value": 2.2
+        }
+      ],
+      "confidence_terms": [
+        {
+          "field": "trend_score",
+          "weight": 0.22
+        },
+        {
+          "field": "momentum_score",
+          "weight": 0.20
+        },
+        {
+          "field": "top_down_bias_score",
+          "weight": 0.18
+        },
+        {
+          "field": "ema_9_reclaim_score",
+          "weight": 0.14
+        },
+        {
+          "field": "post_break_acceptance_score",
+          "weight": 0.12
+        },
+        {
+          "field": "retest_score",
+          "weight": 0.08
+        },
+        {
+          "field": "failed_break_risk",
+          "operator": "lte",
+          "value": 0.35,
+          "weight": 0.03
+        },
+        {
+          "field": "chop_penalty",
+          "operator": "lte",
+          "value": 0.45,
+          "weight": 0.02
+        },
+        {
+          "field": "spread_pips",
+          "operator": "lte",
+          "value": 2.2,
+          "weight": 0.01
+        }
+      ]
+    }
+  }
+}

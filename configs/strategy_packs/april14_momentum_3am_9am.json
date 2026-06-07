@@ -1,0 +1,143 @@
+{
+  "pack_id": "april14_momentum_3am_9am",
+  "label": "April 14 proven momentum cartridge, 3 AM to 8:30 AM ET",
+  "metadata": {
+    "mode": "practice_only",
+    "primary_strategy_label": "momentum",
+    "source_policy": "Derived from verified April 14 counterfactual evidence only; no legacy code imported.",
+    "evidence_window": "2026-04-13T17:00:00-04:00 to 2026-04-14T17:00:00-04:00",
+    "active_entry_window_et": "03:00-08:30",
+    "best_variant": "peak_giveback_175_after_350",
+    "best_variant_realized_pnl_usd": 681.3,
+    "known_winning_timestamps_et": [
+      "2026-04-14T03:00:00-04:00 USD_CHF momentum",
+      "2026-04-14T03:00:00-04:00 EUR_USD momentum",
+      "2026-04-14T03:15:00-04:00 GBP_USD momentum",
+      "2026-04-14T04:15:00-04:00 NZD_USD momentum",
+      "2026-04-14T05:45:00-04:00 USD_CAD momentum",
+      "2026-04-14T05:45:00-04:00 USD_JPY momentum",
+      "2026-04-14T06:15:00-04:00 EUR_USD momentum",
+      "2026-04-14T07:00:00-04:00 GBP_USD momentum",
+      "2026-04-14T08:30:00-04:00 AUD_USD momentum",
+      "2026-04-14T08:30:00-04:00 NZD_USD momentum"
+    ],
+    "scalp_policy": "disabled in this cartridge; scalp remains secondary until separately proven",
+    "runtime_gate": "CartridgeSchedule opens entries from 3:00 AM ET through the 8:30 AM ET minute only.",
+    "peak_giveback_overlay": {
+      "arm_after_session_gain_usd": 350.0,
+      "flatten_after_giveback_from_peak_usd": 175.0
+    }
+  },
+  "workflow_priority": {
+    "momentum": 8.0
+  },
+  "position_sizing": [
+    {
+      "min_confidence": 0.9,
+      "min_votes": 5,
+      "units_multiplier": 1.0
+    },
+    {
+      "min_confidence": 0.84,
+      "min_votes": 4,
+      "units_multiplier": 0.8
+    },
+    {
+      "min_confidence": 0.0,
+      "min_votes": 0,
+      "units_multiplier": 0.6
+    }
+  ],
+  "exit_profiles": {
+    "default": {
+      "profile_name": "clip_75pct_tp",
+      "stop_pips": 10.0,
+      "target_pips": 25.2,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 15.0
+    },
+    "clip_75pct_tp": {
+      "profile_name": "clip_75pct_tp",
+      "stop_pips": 10.0,
+      "target_pips": 25.2,
+      "green_lock_pips": 5.0,
+      "green_lock_min_profit_pips": 15.0
+    }
+  },
+  "workflow_exit_profiles": {
+    "*": "clip_75pct_tp",
+    "momentum": "clip_75pct_tp"
+  },
+  "workflows": {
+    "momentum": {
+      "min_votes": 4,
+      "min_confidence": 0.78,
+      "checks": [
+        {
+          "label": "April 14 momentum trend is aligned",
+          "field": "trend_score",
+          "operator": "gte",
+          "value": 0.70
+        },
+        {
+          "label": "April 14 momentum impulse is live",
+          "field": "momentum_score",
+          "operator": "gte",
+          "value": 0.72
+        },
+        {
+          "label": "breakout pressure supports continuation",
+          "field": "breakout_score",
+          "operator": "gte",
+          "value": 0.62
+        },
+        {
+          "label": "retest did not break momentum structure",
+          "field": "retest_score",
+          "operator": "gte",
+          "value": 0.50
+        },
+        {
+          "label": "spread is acceptable for OANDA momentum",
+          "field": "spread_pips",
+          "operator": "lte",
+          "value": 2.2
+        },
+        {
+          "label": "volatility can support target travel",
+          "field": "volatility_score",
+          "operator": "gte",
+          "value": 0.50
+        }
+      ],
+      "confidence_terms": [
+        {
+          "field": "momentum_score",
+          "weight": 0.35
+        },
+        {
+          "field": "trend_score",
+          "weight": 0.25
+        },
+        {
+          "field": "breakout_score",
+          "weight": 0.20
+        },
+        {
+          "field": "retest_score",
+          "weight": 0.10
+        },
+        {
+          "field": "volatility_score",
+          "weight": 0.05
+        },
+        {
+          "field": "spread_pips",
+          "operator": "lte",
+          "value": 2.2,
+          "weight": 0.05
+        }
+      ]
+    }
+  }
+}
