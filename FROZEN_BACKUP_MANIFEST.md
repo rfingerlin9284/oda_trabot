@@ -12,3 +12,5 @@ Active cartridges:
 - post_9am_ema_fib_momentum_continuation: 9:00 AM-11:29:59 AM ET, continuation only.
 
 Runtime routing: ODA_TRABOT_CARTRIDGE_ROUTING=auto.
+
+Archive SHA256: 09a265299892d2a741db78e5682ef9a9cab7815d07fa28a627f8b3ca0569450b
